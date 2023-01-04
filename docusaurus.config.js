@@ -90,19 +90,15 @@ const config = {
             ],
           },
           {
-            title: 'Community',
+            title: 'Reach me out',
             items: [
               {
-                label: 'Stack Overflow',
-                href: 'https://stackoverflow.com/questions/tagged/docusaurus',
-              },
-              {
-                label: 'Discord',
-                href: 'https://discordapp.com/invite/docusaurus',
+                label: 'Linkedin',
+                href: 'https://www.linkedin.com/in/daniel-pepuho',
               },
               {
                 label: 'Twitter',
-                href: 'https://twitter.com/docusaurus',
+                href: 'https://twitter.com/chrstdan',
               },
             ],
           },
@@ -114,13 +110,13 @@ const config = {
                 to: '/blog',
               },
               {
-                label: 'GitHub',
-                href: 'https://github.com/facebook/docusaurus',
+                label: 'Source Code',
+                href: 'https://github.com/danielcristho/hestia-docs',
               },
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} My Documentation. Built with Docusaurus.`,
       },
       prism: {
         theme: lightCodeTheme,
