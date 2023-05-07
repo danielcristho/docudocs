@@ -6,7 +6,7 @@ const sidebars = {
         },
         {
           type: 'category',
-          label: 'Tutorial',
+          label: 'Tags',
           items: [{
             type: 'doc',
             id: 'tabs',

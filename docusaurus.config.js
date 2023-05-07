@@ -1,88 +1,83 @@
 // @ts-check
 // Note: type annotations allow type checking and IDEs autocompletion
 
+require("dotenv").config();
+
 const lightCodeTheme = require('prism-react-renderer/themes/github');
 const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'My Site',
-  tagline: 'Dinosaurs are cool',
+  title: process.env.SITE_TITLE,
+  tagline: '',
   favicon: 'img/terminal.png',
-
-  // Set the production url of your site here
-  url: 'https://hestia-docs.vercel.app/',
-  // Set the /<baseUrl>/ pathname under which your site is served
-  // For GitHub pages deployment, it is often '/<projectName>/'
+  url: process.env.SITE_URL,
   baseUrl: '/',
-
-  projectName: 'docusaurus', // Usually your repo name.
-
+  projectName: process.env.PROJECT_NAME,
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
-
-  // Even if you don't use internalization, you can use this field to set useful
-  // metadata like html lang. For example, if your site is Chinese, you may want
-  // to replace "en" with "zh-Hans".
   i18n: {
     defaultLocale: 'en',
     locales: ['en'],
   },
-
 
   presets: [
     [
       'classic',
       /** @type {import('@docusaurus/preset-classic').Options} */
       ({
-        docs: {
-          sidebarPath: require.resolve('./sidebars.js'),
-          // Please change this to your repo.
-          // Remove this to remove the "edit this page" links.
-          editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
-        },
-        blog: {
-          showReadingTime: true,
-          // Please change this to your repo.
-          // Remove this to remove the "edit this page" links.
-          editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
-            remarkPlugins: [
-              [require('@docusaurus/remark-plugin-npm2yarn'), {sync: true}],
-            ],
-        },
+        docs: false,
+        blog: false,
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
         },
       }),
     ],
   ],
+  plugins: [
+    [
+      "./plugins/blog-plugin",
+      {
+        id: "blog",
+        routeBasePath: "blog",
+        path: "./blog",
+        blogSidebarCount: 0,
+        showReadingTime: true,
+        editUrl: ({ blogDirPath, blogPath }) => {
+          return `https://github.com/${process.env.ORGANIZATION_NAME}/${process.env.REPOSITORY_NAME}/edit/main/${blogDirPath}/${blogPath}`;
+        },
+      },
+    ],
+    [
+      "@docusaurus/plugin-content-blog",
+      {
+        id: "blog-work",
+        routeBasePath: "work",
+        path: "./blog-work",
+        blogSidebarCount: 0,
+        blogTitle: "Featured Work",
+        showReadingTime: false,
+      },
+    ],
+  ],
 
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
-      // Replace with your project's social card
-      image: 'img/docusaurus-social-card.jpg',
+      colorMode: {
+        defaultMode: "dark",
+      },
       navbar: {
-        title: 'My Site',
+        title: process.env.SITE_TITLE,
         logo: {
           alt: 'My Site Logo',
           src: 'img/terminal.png',
         },
         items: [
-          {
-            type: 'docSidebar',
-            sidebarId: 'tutorialSidebar',
-            position: 'left',
-            label: 'Tutorial',
-          },
-          {to: '/blog', label: 'Blog', position: 'left'},
-          {
-            href: 'https://github.com/danielcristho/docudocs',
-            label: 'GitHub',
-            position: 'right',
-          },
+          { to: "/about", label: "About", position: "right" },
+          { to: "/blog", label: "Blog", position: "right" },
+          { to: "/work", label: "Work", position: "right" },
+          { to: "/contact", label: "Contact", position: "right" },
         ],
       },
       footer: {
@@ -131,8 +126,8 @@ const config = {
         copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
       },
       prism: {
-        theme: lightCodeTheme,
-        darkTheme: darkCodeTheme,
+        theme: require('prism-react-renderer/themes/github'),
+        darkTheme: require('prism-react-renderer/themes/dracula'),
       },
     }),
 };
