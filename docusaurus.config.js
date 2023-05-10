@@ -3,33 +3,34 @@
 
 require("dotenv").config();
 
-const lightCodeTheme = require('prism-react-renderer/themes/github');
-const darkCodeTheme = require('prism-react-renderer/themes/dracula');
+const lightCodeTheme = require("prism-react-renderer/themes/github");
+const darkCodeTheme = require("prism-react-renderer/themes/dracula");
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: process.env.SITE_TITLE,
-  tagline: '',
-  favicon: 'img/terminal.png',
+  tagline: "",
   url: process.env.SITE_URL,
-  baseUrl: '/',
-  projectName: process.env.PROJECT_NAME,
-  onBrokenLinks: 'throw',
-  onBrokenMarkdownLinks: 'warn',
-  i18n: {
-    defaultLocale: 'en',
-    locales: ['en'],
+  baseUrl: "/",
+  onBrokenLinks: "throw",
+  onBrokenMarkdownLinks: "warn",
+  favicon: "img/favicon.ico",
+  organizationName: process.env.ORGANIZATION_NAME,
+  projectName: process.env.REPOSITORY_NAME,
+  customFields: {
+    giscusDiscussionCategory: process.env.GISCUS_DISCUSSION_CATEGORY,
+    giscusDiscussionCategoryId: process.env.GISCUS_DISCUSSION_CATEGORY_ID,
+    giscusProjectId: process.env.GISCUS_PROJECT_ID,
   },
-
   presets: [
     [
-      'classic',
+      "classic",
       /** @type {import('@docusaurus/preset-classic').Options} */
       ({
         docs: false,
         blog: false,
         theme: {
-          customCss: require.resolve('./src/css/custom.css'),
+          customCss: require.resolve("./src/css/custom.css"),
         },
       }),
     ],
@@ -70,8 +71,8 @@ const config = {
       navbar: {
         title: process.env.SITE_TITLE,
         logo: {
-          alt: 'My Site Logo',
-          src: 'img/terminal.png',
+          alt: "Daniel Logo",
+          src: "img/docusaurus.png",
         },
         items: [
           { to: "/about", label: "About", position: "right" },
@@ -81,53 +82,45 @@ const config = {
         ],
       },
       footer: {
-        style: 'dark',
+        style: "light",
+        logo: {
+          alt: "Daniel Logo",
+          href: "/",
+          src: "img/docusaurus.png",
+          height: 50,
+          width: 50,
+        },
         links: [
           {
-            title: 'Docs',
-            items: [
-              {
-                label: 'Tutorial',
-                to: '/docs/intro',
-              },
-            ],
+            label: "GitHub",
+            href: "https://github.com/danielcristho",
           },
           {
-            title: 'Community',
-            items: [
-              {
-                label: 'Stack Overflow',
-                href: 'https://stackoverflow.com/questions/tagged/docusaurus',
-              },
-              {
-                label: 'Discord',
-                href: 'https://discordapp.com/invite/docusaurus',
-              },
-              {
-                label: 'Twitter',
-                href: 'https://twitter.com/docusaurus',
-              },
-            ],
+            label: "LinkedIn",
+            href: "https://www.linkedin.com/in/daniel-pepuho",
           },
           {
-            title: 'More',
-            items: [
-              {
-                label: 'Blog',
-                to: '/blog',
-              },
-              {
-                label: 'GitHub',
-                href: 'https://github.com/facebook/docusaurus',
-              },
-            ],
+            label: "Twitter",
+            href: "https://www.twitter.com/chrstdan",
+          },
+          {
+            label: "Dev To",
+            href: "https://dev.to/danielcristho",
+          },
+          {
+            label: "Ops Io",
+            href: "https://dev.to/danielcristho",
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+        copyright: `&copy; ${new Date().getFullYear()} Daniel Pepuho Tech Docs made with Docusaurus`,
       },
+
       prism: {
-        theme: require('prism-react-renderer/themes/github'),
-        darkTheme: require('prism-react-renderer/themes/dracula'),
+        theme: lightCodeTheme,
+        darkTheme: darkCodeTheme,
+      },
+      sidebar: {
+        hideable: false,
       },
     }),
 };
