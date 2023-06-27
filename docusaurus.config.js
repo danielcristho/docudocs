@@ -1,6 +1,3 @@
-// @ts-check
-// Note: type annotations allow type checking and IDEs autocompletion
-
 require("dotenv").config();
 
 const lightCodeTheme = require("prism-react-renderer/themes/github");
@@ -70,23 +67,23 @@ const config = {
       },
       navbar: {
         title: process.env.SITE_TITLE,
-        logo: {
-          alt: "Daniel Logo",
-          src: "img/docusaurus.png",
-        },
+        // logo: {
+        //   alt: "KG Logo",
+        //   src: "img/logo.png",
+        // },
         items: [
           { to: "/about", label: "About", position: "right" },
           { to: "/blog", label: "Blog", position: "right" },
-          { to: "/work", label: "Work", position: "right" },
-          { to: "/contact", label: "Contact", position: "right" },
+          // { to: "/work", label: "Work", position: "right" },
+          { to: "/contact", label: "Connect", position: "right" },
         ],
       },
       footer: {
         style: "light",
         logo: {
-          alt: "Daniel Logo",
+          alt: "KG Logo",
           href: "/",
-          src: "img/docusaurus.png",
+          src: "img/logo.png",
           height: 50,
           width: 50,
         },
@@ -103,18 +100,9 @@ const config = {
             label: "Twitter",
             href: "https://www.twitter.com/chrstdan",
           },
-          {
-            label: "Dev To",
-            href: "https://dev.to/danielcristho",
-          },
-          {
-            label: "Ops Io",
-            href: "https://dev.to/danielcristho",
-          },
         ],
-        copyright: `&copy; ${new Date().getFullYear()} Daniel Pepuho Tech Docs made with Docusaurus`,
+        copyright: `&copy; ${new Date().getFullYear()} Kishan Gajera. All content is the property of Kishan Gajera and KGajera.com.`,
       },
-
       prism: {
         theme: lightCodeTheme,
         darkTheme: darkCodeTheme,

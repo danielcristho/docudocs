@@ -1,41 +1,28 @@
-# Website
+# KGajera.com
 
-This website is built using [Docusaurus 2](https://docusaurus.io/), a modern static website generator.
+[![Netlify Status](https://api.netlify.com/api/v1/badges/d901faa1-d599-4940-97f2-1fecef68d139/deploy-status)](https://app.netlify.com/sites/kgajera/deploys)
 
-### Installation
+This website built using [Docusaurus 2](https://docusaurus.io/), a static website generator.
 
-```
-$ yarn
-```
+## Getting Started
 
-### Local Development
+1. Run `cp .env.example .env` and set values. These environment variables are used in [`docusaurus.config.js`](/docusaurus.config.js).
+1. Run `npm install` to install dependencies
+1. Run `npm start` to start a local development server
 
-```
-$ yarn start
-```
+## Code Generation
 
-This command starts a local development server and opens up a browser window. Most changes are reflected live without having to restart the server.
+Generate files using the following commands:
 
-### Build
+- `npm run g:blog` - generates a new blog post in `./blog/`
+  - Pass the `-i` flag to run in interactive mode
+- `npm run g:component` - generates a new component file in `./src/components/`
+- `npm run g:page` - generates a new page component file in `./src/pages/`
 
-```
-$ yarn build
-```
+## Production Build
 
-This command generates static content into the `build` directory and can be served using any static contents hosting service.
+Run `npm run build` to generate static content into the `build` directory and can be served using any static contents hosting service.
 
-### Deployment
+## Cloning / Forking
 
-Using SSH:
-
-```
-$ USE_SSH=true yarn deploy
-```
-
-Not using SSH:
-
-```
-$ GIT_USER=<Your GitHub username> yarn deploy
-```
-
-If you are using GitHub pages for hosting, this command is a convenient way to build the website and push to the `gh-pages` branch.
+Please review the license and run `npm run clean` to remove all personal content such as blog posts and images.
