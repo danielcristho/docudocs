@@ -16,7 +16,7 @@ function Footer(props: {}) {
               }}
             >
               <div style={{ flexGrow: 1 }}>
-                <h3>About Kishan Gajera</h3>I am a highly motivated and
+                <h3>About Daniel Pepuhoa</h3>I am a highly motivated and
                 passionate software engineer. You'll mostly find me working with
                 JavaScript on both client and server side. I strive to build web
                 applications and libraries that countless people will find
