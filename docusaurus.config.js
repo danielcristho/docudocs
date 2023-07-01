@@ -67,26 +67,14 @@ const config = {
       },
       navbar: {
         title: process.env.SITE_TITLE,
-        // logo: {
-        //   alt: "KG Logo",
-        //   src: "img/logo.png",
-        // },
         items: [
           { to: "/about", label: "About", position: "right" },
           { to: "/blog", label: "Blog", position: "right" },
-          // { to: "/work", label: "Work", position: "right" },
           { to: "/contact", label: "Connect", position: "right" },
         ],
       },
       footer: {
         style: "light",
-        logo: {
-          alt: "KG Logo",
-          href: "/",
-          src: "img/logo.png",
-          height: 50,
-          width: 50,
-        },
         links: [
           {
             label: "GitHub",
@@ -101,7 +89,7 @@ const config = {
             href: "https://www.twitter.com/chrstdan",
           },
         ],
-        copyright: `&copy; ${new Date().getFullYear()} Kishan Gajera. All content is the property of Kishan Gajera and KGajera.com.`,
+        copyright: `&copy; ${new Date().getFullYear()} Daniel Pepuho. Build using Docusaurus.`,
       },
       prism: {
         theme: lightCodeTheme,
