@@ -88,8 +88,16 @@ const config = {
             label: "Twitter",
             href: "https://www.twitter.com/chrstdan",
           },
+          {
+            label: "Dev To",
+            href: "https://dev.to/danielcristho",
+          },
+          {
+            label: "Ops Io",
+            href: "https://community.ops.io/danielcristho",
+          },
         ],
-        copyright: `&copy; ${new Date().getFullYear()} Daniel Pepuho. Build using Docusaurus.`,
+        copyright: `&copy; ${new Date().getFullYear()} Daniel Pepuho. This blog build using Docusaurus.`,
       },
       prism: {
         theme: lightCodeTheme,

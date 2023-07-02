@@ -23,22 +23,20 @@ export default function FooterWrapper(props: {}) {
       </Head>
       <Footer {...props} />
       <div className="margin-vert--xl">
-        <Giscus
-          id="comments"
-          repo={`${siteConfig.organizationName}/${siteConfig.projectName}`}
-          repoId={siteConfig.customFields.giscusProjectId as string}
-          category={siteConfig.customFields.giscusDiscussionCategory as string}
-          categoryId={
-            siteConfig.customFields.giscusDiscussionCategoryId as string
-          }
-          mapping="title"
-          reactionsEnabled="0"
-          emitMetadata="0"
-          inputPosition="top"
-          theme={colorMode}
-          lang="en"
-          loading="eager"
-        />
+      <Giscus
+        id="R_kgDOItl3tQ"
+        repo="https://github.com/danielcristho"
+        repoId=""
+        category="General"
+        categoryId="DIC_kwDOItl3tc4CXncq"
+        mapping="title"
+        reactionsEnabled="0"
+        emitMetadata="0"
+        inputPosition="top"
+        theme={colorMode}
+        lang="en"
+        loading="eager"
+      />
       </div>
       <div
         className="margin-vert--lg"
