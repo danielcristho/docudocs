@@ -1,0 +1,15 @@
+.literatureContainer{
+  /* text-align: center;
+  color:var(--ifm-heading-color);   */
+  font-style: italic;
+  padding: 4rem 0;
+  white-space: pre-line;
+}
+
+.literatureAuthor{
+  color: var(--ifm-color-emphasis-600);
+}
+
+[data-theme='dark'] .literatureAuthor{
+  color: var(--ifm-color-emphasis-300);
+}
