@@ -10,11 +10,11 @@ const katex = require('rehype-katex');
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'danielcristho',
-  url: 'https://m19v.github.io',
+  url: 'https://www.danielcristho.site',
   baseUrl: '/',
   onBrokenLinks: 'warn',
-  onBrokenMarkdownLinks: 'warn',
   favicon: 'img/m19v.ico',
+  onBrokenMarkdownLinks: 'warn',
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
@@ -117,8 +117,8 @@ const config = {
         hideOnScroll: true,
         logo: {
           alt: 'My Site Logo',
-          src: 'img/{m19v}_black_without_bg.png',
-          srcDark: 'img/{m19v}_white_without_bg.png',
+          src: 'img/logo.png',
+          srcDark: 'img/logo.png',
           className: 'header-m19v-logo'
         },
         items: [
@@ -135,13 +135,13 @@ const config = {
             className: "header-github-link",
             "aria-label": "GitHub repository",
           },
-          {
-//             href: 'https://www.youtube.com/channel/UCQNWMiFiK4I0ZK9K_s3mRvw',
-            href: 'https://youtube.com/@m19v',
-            position: 'right',
-            className: "header-youtube-link",
-            "aria-label": "GitHub repository",
-          },
+//           {
+// //             href: 'https://www.youtube.com/channel/UCQNWMiFiK4I0ZK9K_s3mRvw',
+//             href: 'https://youtube.com/@m19v',
+//             position: 'right',
+//             className: "header-youtube-link",
+//             "aria-label": "GitHub repository",
+//           },
           {
             type: 'localeDropdown',
             position: 'right',
@@ -150,7 +150,7 @@ const config = {
       },
       footer: {
         style: 'light',
-        copyright: `© ${new Date().getFullYear()} - {m19v}`,
+        copyright: `© ${new Date().getFullYear()} - danielcristho`,
       },
       prism: {
         theme: lightCodeTheme,

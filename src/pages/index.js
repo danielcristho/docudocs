@@ -10,9 +10,9 @@ export default function Home() {
     <Layout title={`Home`}>
         <div className={styles.minimaliStyle}>
           <p>Hi, my name is</p>
-          <h1>&#123;m19v&#125;</h1>
+          <h1>Daniel Pepuho</h1>
           <p>
-            I am a Software Developer passionate about tech
+            I am a Software Developer passionate network and programming
             and programming.
           </p>
           <br />
