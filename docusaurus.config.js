@@ -130,18 +130,11 @@ const config = {
           },
           { to: '/blog', label: 'Blog', position: 'left' },
           {
-            href: 'https://github.com/m19v',
+            href: 'https://github.com/danielcristho',
             position: 'right',
             className: "header-github-link",
             "aria-label": "GitHub repository",
           },
-//           {
-// //             href: 'https://www.youtube.com/channel/UCQNWMiFiK4I0ZK9K_s3mRvw',
-//             href: 'https://youtube.com/@m19v',
-//             position: 'right',
-//             className: "header-youtube-link",
-//             "aria-label": "GitHub repository",
-//           },
           {
             type: 'localeDropdown',
             position: 'right',

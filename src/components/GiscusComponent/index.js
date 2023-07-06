@@ -8,11 +8,11 @@ export default function GiscusComponent() {
   const { colorMode } = useColorMode();
 
   return (
-    <Giscus    
-      repo="m19v/giscus-repo"
-      repoId="R_kgDOHzSRww"
+    <Giscus
+      repo="danielcristho/docudocs"
+      repoId="R_kgDOItl3tQ"
       category="General"
-      categoryId="DIC_kwDOHzSRw84CQvbu"
+      categoryId="DIC_kwDOItl3tc4CXncq"
       mapping="url"
       term="Welcome to @giscus/react component!"
       strict="0"
