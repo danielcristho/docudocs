@@ -29,7 +29,7 @@ function About() {
         </h2>
       </header>
       <main id="main">
-        <div className={styles.about}>
+          <div className={styles.about}>
           <div>
             <img className={styles.aboutProfilePic} src={AvatarImageUrl} />
           </div>

@@ -29,6 +29,8 @@
 
 .aboutText {
   max-width: 512px;
+  flex: 1;
+  margin-left: 2rem;
 }
 
 .aboutText a {
