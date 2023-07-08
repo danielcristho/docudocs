@@ -3,6 +3,7 @@ import useDocusaurusContext from "@docusaurus/useDocusaurusContext";
 import Layout from "@theme/Layout";
 import AvatarImageUrl from "@site/static/img/me.jpg";
 import styles from "./styles.module.css";
+// import styles from "../index.module.css";
 import Translate, { translate } from "@docusaurus/Translate";
 // import { Helmet } from 'react-helmet';
 
@@ -41,7 +42,7 @@ function About() {
               You can call me  <a>Daniel</a>, a student with a focus on DevOps, Cloud Technologies and Backend Development.
             </p>
             <p>
-            I am (or strive to be) an organized and analytical person. The biggest fan of FC Barcelona and mysterious TV series.
+            I am (or strive to be) an organized and analytical person. The biggest fan of FC Barcelona and mysterious movies.
             </p>
             <p>
               I strongly care about documenting and sharing knowledge. I use this website as a reference in my daily work and would be glad if others could benefit from the information provided here.

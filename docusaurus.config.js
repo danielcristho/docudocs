@@ -117,7 +117,7 @@ const config = {
     },
     footer: {
       style: 'light',
-      // ...
+        copyright: `© ${new Date().getFullYear()} - Daniel Pepuho. Powered by Docusaurus.`,
     },
     prism: {
       theme: lightCodeTheme,
