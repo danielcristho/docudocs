@@ -18,12 +18,9 @@ const config = {
   projectName: 'docudocs', // Usually your repo name.
   trailingSlash: false,
 
-  // Even if you don't use internalization, you can use this field to set useful
-  // metadata like html lang. For example, if your site is Chinese, you may want
-  // to replace "en" with "zh-Hans".
   i18n: {
     defaultLocale: 'en',
-    locales: ['en', 'tg'],
+    locales: ['en'],
     path: 'i18n',
     localeConfigs: {
       en: {
@@ -33,37 +30,14 @@ const config = {
         calendar: 'gregory',
         path: 'en',
       },
-      tg: {
-        label: 'Тоҷикӣ',
-        direction: 'ltr',
-        htmlLang: 'tj-TJ',
-        calendar: 'gregory',
-        path: 'tg',
-      },
     },
   },
-
-  // themes: [
-  //   // Other themes.
-  //   [
-  //     require.resolve("@easyops-cn/docusaurus-search-local"),
-  //     {
-  //       // `hashed` is recommended as long-term-cache of index file is possible.
-  //       hashed: true,
-  //       language: ["en"],
-  //     },
-  //   ],
-  // ],
 
   plugins: [
     // ... plugins lainnya
     [
       '@cmfcmf/docusaurus-search-local',
       {
-        indexDocs: true,
-        indexBlog: true,
-        indexPages: false,
-        language: "en",
       },
     ],
   ],
@@ -75,8 +49,6 @@ const config = {
       ({
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
-          // Please change this to your repo.
-          // Remove this to remove the "edit this page" links.
           editUrl: 'https://github.com/m19v/m19v.github.io/blob/main/',
           remarkPlugins: [math],
           rehypePlugins: [katex],
@@ -85,9 +57,7 @@ const config = {
         },
         blog: {
           showReadingTime: true,
-          // Please change this to your repo.
-          // Remove this to remove the "edit this page" links.
-          editUrl: 'https://github.com/m19v/m19v.github.io/blob/main/',
+          editUrl: 'https://github.com/danielcristho/docudocs/blob/main/',
           blogTitle: 'Blog',
         },
         theme: {
@@ -125,38 +95,46 @@ const config = {
       type: 'text/javascript',
     },
   ],
-  themeConfig:
-    /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
-    ({
-      navbar: {
-        title: 'Home',
-        hideOnScroll: true,
-        items: [
-          {
-            type: 'doc',
-            docId: 'welcome', // must be the same as the name of file
-            position: 'left',
-            label: 'Docs',
-          },
-          { to: '/blog', label: 'Blog', position: 'left' },
-          {
-            href: 'https://github.com/danielcristho',
-            position: 'right',
-            className: 'header-github-link',
-            'aria-label': 'GitHub repository',
-          },
-          {
-            type: 'localeDropdown',
-            position: 'right',
-          },
-        ],
-      },
-      footer: {
-        style: 'light',
-        // ...
-      },
+  themeConfig: {
+    navbar: {
+      title: 'Home',
+      hideOnScroll: true,
+      items: [
+        {
+          type: 'doc',
+          docId: 'welcome',
+          position: 'left',
+          label: 'Docs',
+        },
+        { to: '/blog', label: 'Blog', position: 'left' },
+        {
+          href: 'https://github.com/danielcristho',
+          position: 'right',
+          className: 'header-github-link',
+          'aria-label': 'GitHub repository',
+        },
+      ],
+    },
+    footer: {
+      style: 'light',
       // ...
-    }),
+    },
+    prism: {
+      theme: lightCodeTheme,
+      darkTheme: darkCodeTheme,
+    },
+    docs: {
+      sidebar: {
+        hideable: true,
+      },
+    },
+    colorMode: {
+      defaultMode: 'dark',
+      disableSwitch: false,
+      respectPrefersColorScheme: true,
+    },
+    // ...
+  },
 };
 
 module.exports = config;
