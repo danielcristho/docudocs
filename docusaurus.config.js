@@ -1,6 +1,3 @@
-// @ts-check
-// Note: type annotations allow type checking and IDEs autocompletion
-
 const lightCodeTheme = require('prism-react-renderer/themes/github');
 const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
@@ -9,26 +6,18 @@ const katex = require('rehype-katex');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'danielcristho',
+  title: 'Daniel Pepuho',
   url: 'https://www.danielcristho.site',
   baseUrl: '/',
   onBrokenLinks: 'warn',
-  favicon: 'img/m19v.ico',
   onBrokenMarkdownLinks: 'warn',
-
-  // GitHub pages deployment config.
-  // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'danielcristho', // Usually your GitHub org/user name.
-  projectName: 'm19v.github.io', // Usually your repo name.
-  deploymentBranch: "gh-pages",
+  organizationName: 'danielcristho',
+  projectName: 'docudocs',
   trailingSlash: false,
 
-  // Even if you don't use internalization, you can use this field to set useful
-  // metadata like html lang. For example, if your site is Chinese, you may want
-  // to replace "en" with "zh-Hans".
   i18n: {
     defaultLocale: 'en',
-    locales: ['en', 'tg'],
+    locales: ['en'],
     path: 'i18n',
     localeConfigs: {
       en: {
@@ -38,27 +27,21 @@ const config = {
         calendar: 'gregory',
         path: 'en',
       },
-      tg: {
-        label: 'Тоҷикӣ',
-        direction: 'ltr',
-        htmlLang: 'tj-TJ',
-        calendar: 'gregory',
-        path: 'tg',
-      },
     },
   },
 
-  // themes: [
-  //   // Other themes.
-  //   [
-  //     require.resolve("@easyops-cn/docusaurus-search-local"),
-  //     {
-  //       // `hashed` is recommended as long-term-cache of index file is possible.
-  //       hashed: true,
-  //       language: ["en"],
-  //     },
-  //   ],
-  // ],
+  plugins: [
+    // ... plugins lainnya
+    [
+      '@cmfcmf/docusaurus-search-local',
+      {
+        indexDocs: true,
+        indexBlog: true,
+        indexPages: false,
+        language: "en",
+      },
+    ],
+  ],
 
   presets: [
     [
@@ -67,10 +50,7 @@ const config = {
       ({
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
-          // Please change this to your repo.
-          // Remove this to remove the "edit this page" links.
-          editUrl:
-            'https://github.com/m19v/m19v.github.io/blob/main/',
+          editUrl: 'https://github.com/danielcristho/docudocs/blob/main/',
           remarkPlugins: [math],
           rehypePlugins: [katex],
           showLastUpdateAuthor: true,
@@ -78,19 +58,16 @@ const config = {
         },
         blog: {
           showReadingTime: true,
-          // Please change this to your repo.
-          // Remove this to remove the "edit this page" links.
-          editUrl:
-            'https://github.com/m19v/m19v.github.io/blob/main/',
+          editUrl: 'https://github.com/danielcristho/docudocs/blob/main/',
           blogTitle: 'Blog',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
         },
-        gtag: {
-          trackingID: 'G-LVEVW4JNSB',
-          anonymizeIP: true,
-        },
+        // gtag: {
+        //   trackingID: '',
+        //   anonymizeIP: true,
+        // },
         sitemap: {
           changefreq: 'weekly',
           priority: 0.5,
@@ -119,66 +96,46 @@ const config = {
       type: 'text/javascript',
     },
   ],
-  themeConfig:
-    /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
-    ({
-      navbar: {
-        title: '',
-        hideOnScroll: true,
-        logo: {
-          alt: 'My Site Logo',
-          src: 'img/logo.png',
-          srcDark: 'img/logo.png',
-          className: 'header-m19v-logo'
+  themeConfig: {
+    navbar: {
+      title: 'Home',
+      hideOnScroll: true,
+      items: [
+        {
+          type: 'doc',
+          docId: 'welcome',
+          position: 'left',
+          label: 'Docs',
         },
-        items: [
-          {
-            type: 'doc',
-            docId: 'welcome', // must be the same as the name of file
-            position: 'left',
-            label: 'Docs',
-          },
-          { to: '/blog', label: 'Blog', position: 'left' },
-          {
-            href: 'https://github.com/danielcristho',
-            position: 'right',
-            className: "header-github-link",
-            "aria-label": "GitHub repository",
-          },
-          {
-            type: 'localeDropdown',
-            position: 'right',
-          },
-        ],
-      },
-      footer: {
-        style: 'light',
-        copyright: `© ${new Date().getFullYear()} - danielcristho`,
-      },
-      prism: {
-        theme: lightCodeTheme,
-        darkTheme: darkCodeTheme,
-      },
-      docs: {
-        sidebar: {
-          hideable: true,
+        { to: '/blog', label: 'Blog', position: 'left' },
+        {
+          href: 'https://github.com/danielcristho',
+          position: 'right',
+          className: 'header-github-link',
+          'aria-label': 'GitHub repository',
         },
+      ],
+    },
+    footer: {
+      style: 'light',
+      copyright: `© ${new Date().getFullYear()} - Daniel Pepuho. Powered by <a href="https://docusaurus.io/">Docusaurus</a>.`,
+    },
+    prism: {
+      theme: lightCodeTheme,
+      darkTheme: darkCodeTheme,
+    },
+    docs: {
+      sidebar: {
+        hideable: true,
       },
-      colorMode: {
-        defaultMode: 'dark',
-        disableSwitch: false,
-        respectPrefersColorScheme: true,
-      },
-      // announcementBar: {
-      //   id: 'announcementBarContent',
-      //   // content: `If you like this space, give it a ⭐️ on <a target="_blank" rel="noopener noreferrer" href="https://github.com/m19v">GitHub</a>`,
-      //   content: 'This space is under construction!',
-      //   backgroundColor: '#fafbfc',
-      //   textColor: '#091E42',
-      //   isCloseable: true,
-      // },
-      metadata: [{name: 'google-site-verification', content: '-5zh_8T7Z6ZPupTzJH9LcYznhfRid8I7y2TRsaHcrsE'}],
-    }),
+    },
+    colorMode: {
+      defaultMode: 'dark',
+      disableSwitch: false,
+      respectPrefersColorScheme: true,
+    },
+    // ...
+  },
 };
 
 module.exports = config;
