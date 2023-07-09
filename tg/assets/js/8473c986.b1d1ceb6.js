@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkdanielcristho=self.webpackChunkdanielcristho||[]).push([[7332],{3833:l=>{l.exports=JSON.parse('{"label":"intellij","permalink":"/tg/blog/tags/intellij","allTagsPath":"/tg/blog/tags","count":1}')}}]);

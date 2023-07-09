@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkdanielcristho=self.webpackChunkdanielcristho||[]).push([[9987],{6867:s=>{s.exports=JSON.parse('{"label":"commenting-system","permalink":"/tg/blog/tags/commenting-system","allTagsPath":"/tg/blog/tags","count":1}')}}]);

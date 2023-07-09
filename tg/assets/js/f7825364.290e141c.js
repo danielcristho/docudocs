@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkdanielcristho=self.webpackChunkdanielcristho||[]).push([[6980],{3107:t=>{t.exports=JSON.parse('{"label":"how-to","permalink":"/tg/blog/tags/how-to","allTagsPath":"/tg/blog/tags","count":2}')}}]);

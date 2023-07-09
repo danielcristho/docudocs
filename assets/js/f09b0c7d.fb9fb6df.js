@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkdanielcristho=self.webpackChunkdanielcristho||[]).push([[744],{4138:a=>{a.exports=JSON.parse('{"label":"sonarqube","permalink":"/blog/tags/sonarqube","allTagsPath":"/blog/tags","count":1}')}}]);
