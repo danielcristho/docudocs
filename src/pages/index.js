@@ -12,7 +12,7 @@ export default function Home() {
           <p>Hi, my name is</p>
           <h1>Daniel Pepuho</h1>
           <p>
-            I am a Software Developer passionate network and programming
+            I am a student who is passionate about networking
             and programming.
           </p>
           <br />
