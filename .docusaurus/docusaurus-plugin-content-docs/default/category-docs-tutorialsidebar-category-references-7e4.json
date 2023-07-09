@@ -1,0 +1,16 @@
+{
+  "title": "References",
+  "description": " ",
+  "slug": "/category/references",
+  "permalink": "/docs/category/references",
+  "navigation": {
+    "previous": {
+      "title": "Python",
+      "permalink": "/docs/tutorials/programming-languages/python"
+    },
+    "next": {
+      "title": "Awesome",
+      "permalink": "/docs/references/awesome"
+    }
+  }
+}

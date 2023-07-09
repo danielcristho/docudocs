@@ -1,0 +1,16 @@
+{
+  "title": "Container",
+  "description": "Container.",
+  "slug": "/category/container",
+  "permalink": "/docs/category/container",
+  "navigation": {
+    "previous": {
+      "title": "Maven",
+      "permalink": "/docs/references/cheat-sheet/cicd/maven"
+    },
+    "next": {
+      "title": "Docker Compose",
+      "permalink": "/docs/references/cheat-sheet/container/docker-compose"
+    }
+  }
+}

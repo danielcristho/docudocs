@@ -1,0 +1,29 @@
+{
+  "unversionedId": "references/computer-science-glossary/programming-glossary",
+  "id": "references/computer-science-glossary/programming-glossary",
+  "title": "Programming Glossary",
+  "description": "<FetchMdComponent",
+  "source": "@site/docs/references/computer-science-glossary/programming-glossary.mdx",
+  "sourceDirName": "references/computer-science-glossary",
+  "slug": "/references/computer-science-glossary/programming-glossary",
+  "permalink": "/tg/docs/references/computer-science-glossary/programming-glossary",
+  "draft": false,
+  "editUrl": "https://github.com/m19v/m19v.github.io/blob/main/docs/references/computer-science-glossary/programming-glossary.mdx",
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "danielcristho",
+  "lastUpdatedAt": 1688478173,
+  "formattedLastUpdatedAt": "4 Июл, 2023",
+  "frontMatter": {
+    "title": "Programming Glossary"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Истилоҳоти улуми роёна",
+    "permalink": "/tg/docs/references/computer-science-glossary/computer-science-glossary-tj"
+  },
+  "next": {
+    "title": "Design Patterns",
+    "permalink": "/tg/docs/category/design-patterns"
+  }
+}

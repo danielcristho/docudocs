@@ -1,0 +1,35 @@
+{
+  "unversionedId": "references/computer-science-glossary/computer-science-glossary-tj",
+  "id": "references/computer-science-glossary/computer-science-glossary-tj",
+  "title": "Истилоҳоти улуми роёна",
+  "description": "Introduction",
+  "source": "@site/docs/references/computer-science-glossary/computer-science-glossary-tj.md",
+  "sourceDirName": "references/computer-science-glossary",
+  "slug": "/references/computer-science-glossary/computer-science-glossary-tj",
+  "permalink": "/tg/docs/references/computer-science-glossary/computer-science-glossary-tj",
+  "draft": false,
+  "editUrl": "https://github.com/m19v/m19v.github.io/blob/main/docs/references/computer-science-glossary/computer-science-glossary-tj.md",
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "danielcristho",
+  "lastUpdatedAt": 1688478173,
+  "formattedLastUpdatedAt": "4 Июл, 2023",
+  "frontMatter": {
+    "title": "Истилоҳоти улуми роёна",
+    "keywords": [
+      "Истилоҳот",
+      "улуми роёна",
+      "glossary",
+      "computer science"
+    ]
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Computer Science Glossary",
+    "permalink": "/tg/docs/category/computer-science-glossary"
+  },
+  "next": {
+    "title": "Programming Glossary",
+    "permalink": "/tg/docs/references/computer-science-glossary/programming-glossary"
+  }
+}

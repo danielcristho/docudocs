@@ -1,0 +1,55 @@
+{
+  "permalink": "/tg/blog/how-to-bind-sonarlint-with-sonarqube-in-intellij-ide",
+  "editUrl": "https://github.com/m19v/m19v.github.io/blob/main/blog/2023-04-13-how-to-bind-sonarlint-with-sonarqube-in-intellij-ide.md",
+  "source": "@site/blog/2023-04-13-how-to-bind-sonarlint-with-sonarqube-in-intellij-ide.md",
+  "title": "How to bind SonarLint with SonarQube in IntelliJ IDE",
+  "description": "Introduction",
+  "date": "2023-04-13T00:00:00.000Z",
+  "formattedDate": "13 Апрел 2023",
+  "tags": [
+    {
+      "label": "sonarlint",
+      "permalink": "/tg/blog/tags/sonarlint"
+    },
+    {
+      "label": "sonarqube",
+      "permalink": "/tg/blog/tags/sonarqube"
+    },
+    {
+      "label": "intellij",
+      "permalink": "/tg/blog/tags/intellij"
+    },
+    {
+      "label": "how-to",
+      "permalink": "/tg/blog/tags/how-to"
+    }
+  ],
+  "readingTime": 4.02,
+  "hasTruncateMarker": true,
+  "authors": [
+    {
+      "name": "Daniel Pepuho",
+      "title": "System Administrator",
+      "url": "https://github.com/danielcristho",
+      "imageURL": "https://github.com/danielcristho.png",
+      "key": "danielcristho"
+    }
+  ],
+  "frontMatter": {
+    "slug": "how-to-bind-sonarlint-with-sonarqube-in-intellij-ide",
+    "title": "How to bind SonarLint with SonarQube in IntelliJ IDE",
+    "authors": "danielcristho",
+    "tags": [
+      "sonarlint",
+      "sonarqube",
+      "intellij",
+      "how-to"
+    ],
+    "enableComments": true,
+    "countApiKey": "cabc9090-1feb-4974-8c8f-bc1d3d039dd3"
+  },
+  "nextItem": {
+    "title": "How to add Giscus comments to Docusaurus",
+    "permalink": "/tg/blog/how-to-add-giscus-to-docusaurus"
+  }
+}

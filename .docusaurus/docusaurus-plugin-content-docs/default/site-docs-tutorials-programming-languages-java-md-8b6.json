@@ -1,0 +1,29 @@
+{
+  "unversionedId": "tutorials/programming-languages/java",
+  "id": "tutorials/programming-languages/java",
+  "title": "Java",
+  "description": "Content",
+  "source": "@site/docs/tutorials/programming-languages/java.md",
+  "sourceDirName": "tutorials/programming-languages",
+  "slug": "/tutorials/programming-languages/java",
+  "permalink": "/tg/docs/tutorials/programming-languages/java",
+  "draft": false,
+  "editUrl": "https://github.com/m19v/m19v.github.io/blob/main/docs/tutorials/programming-languages/java.md",
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "danielcristho",
+  "lastUpdatedAt": 1688478173,
+  "formattedLastUpdatedAt": "4 Июл, 2023",
+  "frontMatter": {
+    "title": "Java"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Bash",
+    "permalink": "/tg/docs/tutorials/programming-languages/bash"
+  },
+  "next": {
+    "title": "Python",
+    "permalink": "/tg/docs/tutorials/programming-languages/python"
+  }
+}

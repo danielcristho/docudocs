@@ -1,0 +1,29 @@
+{
+  "unversionedId": "references/cheat-sheet/security/https",
+  "id": "references/cheat-sheet/security/https",
+  "title": "Https",
+  "description": "SSL vs TLS",
+  "source": "@site/docs/references/cheat-sheet/security/https.md",
+  "sourceDirName": "references/cheat-sheet/security",
+  "slug": "/references/cheat-sheet/security/https",
+  "permalink": "/tg/docs/references/cheat-sheet/security/https",
+  "draft": false,
+  "editUrl": "https://github.com/m19v/m19v.github.io/blob/main/docs/references/cheat-sheet/security/https.md",
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "danielcristho",
+  "lastUpdatedAt": 1688478173,
+  "formattedLastUpdatedAt": "4 Июл, 2023",
+  "frontMatter": {
+    "title": "Https"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Security",
+    "permalink": "/tg/docs/category/security"
+  },
+  "next": {
+    "title": "OpenSSL",
+    "permalink": "/tg/docs/references/cheat-sheet/security/openssl"
+  }
+}

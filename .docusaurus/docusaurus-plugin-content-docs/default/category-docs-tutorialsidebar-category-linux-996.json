@@ -1,0 +1,16 @@
+{
+  "title": "Linux",
+  "description": "Linux.",
+  "slug": "/category/linux",
+  "permalink": "/docs/category/linux",
+  "navigation": {
+    "previous": {
+      "title": "Minikube",
+      "permalink": "/docs/references/cheat-sheet/k8s/minikube"
+    },
+    "next": {
+      "title": "Systemd",
+      "permalink": "/docs/references/cheat-sheet/linux/systemd"
+    }
+  }
+}

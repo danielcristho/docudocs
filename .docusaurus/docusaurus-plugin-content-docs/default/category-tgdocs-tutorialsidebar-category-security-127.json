@@ -1,0 +1,16 @@
+{
+  "title": "Security",
+  "description": "Security.",
+  "slug": "/category/security",
+  "permalink": "/tg/docs/category/security",
+  "navigation": {
+    "previous": {
+      "title": "Python",
+      "permalink": "/tg/docs/references/cheat-sheet/scripting/python"
+    },
+    "next": {
+      "title": "Https",
+      "permalink": "/tg/docs/references/cheat-sheet/security/https"
+    }
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "title": "Book Summaries",
+  "description": " ",
+  "slug": "/category/book-summaries",
+  "permalink": "/tg/docs/category/book-summaries",
+  "navigation": {
+    "previous": {
+      "title": "Reading List",
+      "permalink": "/tg/docs/reading-list"
+    },
+    "next": {
+      "title": "A Brief History of Time",
+      "permalink": "/tg/docs/book-summaries/a-brief-history-of-time"
+    }
+  }
+}

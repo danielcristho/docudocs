@@ -1,0 +1,347 @@
+{
+  "docusaurus-plugin-google-gtag": {
+    "default": {
+      "trackingID": [
+        "G-LVEVW4JNSB"
+      ],
+      "anonymizeIP": true,
+      "id": "default"
+    }
+  },
+  "docusaurus-plugin-content-docs": {
+    "default": {
+      "path": "/tg/docs",
+      "versions": [
+        {
+          "name": "current",
+          "label": "Next",
+          "isLast": true,
+          "path": "/tg/docs",
+          "mainDocId": "welcome",
+          "docs": [
+            {
+              "id": "book-summaries/a-brief-history-of-time",
+              "path": "/tg/docs/book-summaries/a-brief-history-of-time",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "book-summaries/atomic-habits",
+              "path": "/tg/docs/book-summaries/atomic-habits",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "book-summaries/clean-code",
+              "path": "/tg/docs/book-summaries/clean-code",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "book-summaries/effective-java",
+              "path": "/tg/docs/book-summaries/effective-java",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "literature/nasr",
+              "path": "/tg/docs/literature/nasr",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "literature/nazm",
+              "path": "/tg/docs/literature/nazm",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "literature/proverbs-and-quotes",
+              "path": "/tg/docs/literature/proverbs-and-quotes",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "reading-list",
+              "path": "/tg/docs/reading-list",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "references/awesome",
+              "path": "/tg/docs/references/awesome",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "references/cheat-sheet/automation/ansible-cheatsheet",
+              "path": "/tg/docs/references/cheat-sheet/automation/ansible-cheatsheet",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "references/cheat-sheet/cicd/git",
+              "path": "/tg/docs/references/cheat-sheet/cicd/git",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "references/cheat-sheet/cicd/jenkins",
+              "path": "/tg/docs/references/cheat-sheet/cicd/jenkins",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "references/cheat-sheet/cicd/maven",
+              "path": "/tg/docs/references/cheat-sheet/cicd/maven",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "references/cheat-sheet/container/docker",
+              "path": "/tg/docs/references/cheat-sheet/container/docker",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "references/cheat-sheet/container/docker-compose",
+              "path": "/tg/docs/references/cheat-sheet/container/docker-compose",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "references/cheat-sheet/container/dockerfile",
+              "path": "/tg/docs/references/cheat-sheet/container/dockerfile",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "references/cheat-sheet/k8s/helm",
+              "path": "/tg/docs/references/cheat-sheet/k8s/helm",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "references/cheat-sheet/k8s/kubectl",
+              "path": "/tg/docs/references/cheat-sheet/k8s/kubectl",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "references/cheat-sheet/k8s/minikube",
+              "path": "/tg/docs/references/cheat-sheet/k8s/minikube",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "references/cheat-sheet/linux/systemd",
+              "path": "/tg/docs/references/cheat-sheet/linux/systemd",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "references/cheat-sheet/network/curl",
+              "path": "/tg/docs/references/cheat-sheet/network/curl",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "references/cheat-sheet/network/iptables",
+              "path": "/tg/docs/references/cheat-sheet/network/iptables",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "references/cheat-sheet/network/linux-networking",
+              "path": "/tg/docs/references/cheat-sheet/network/linux-networking",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "references/cheat-sheet/network/ssh",
+              "path": "/tg/docs/references/cheat-sheet/network/ssh",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "references/cheat-sheet/scripting/bash",
+              "path": "/tg/docs/references/cheat-sheet/scripting/bash",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "references/cheat-sheet/scripting/python",
+              "path": "/tg/docs/references/cheat-sheet/scripting/python",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "references/cheat-sheet/security/https",
+              "path": "/tg/docs/references/cheat-sheet/security/https",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "references/cheat-sheet/security/openssl",
+              "path": "/tg/docs/references/cheat-sheet/security/openssl",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "references/cheat-sheet/security/ssl-certificate",
+              "path": "/tg/docs/references/cheat-sheet/security/ssl-certificate",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "references/cheat-sheet/windows/netsh",
+              "path": "/tg/docs/references/cheat-sheet/windows/netsh",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "references/cheat-sheet/windows/wmic",
+              "path": "/tg/docs/references/cheat-sheet/windows/wmic",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "references/cheat-sheet/windows/wsl",
+              "path": "/tg/docs/references/cheat-sheet/windows/wsl",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "references/computer-science-glossary/computer-science-glossary-tj",
+              "path": "/tg/docs/references/computer-science-glossary/computer-science-glossary-tj",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "references/computer-science-glossary/programming-glossary",
+              "path": "/tg/docs/references/computer-science-glossary/programming-glossary",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "references/design-patterns/design-patterns",
+              "path": "/tg/docs/references/design-patterns/",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "tools",
+              "path": "/tg/docs/tools",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "tutorials/engineering-mathematics/numerical-analysis",
+              "path": "/tg/docs/tutorials/engineering-mathematics/numerical-analysis",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "tutorials/iot/home-automation",
+              "path": "/tg/docs/tutorials/iot/home-automation",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "tutorials/iot/raspberry-pi",
+              "path": "/tg/docs/tutorials/iot/raspberry-pi",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "tutorials/programming-languages/bash",
+              "path": "/tg/docs/tutorials/programming-languages/bash",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "tutorials/programming-languages/java",
+              "path": "/tg/docs/tutorials/programming-languages/java",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "tutorials/programming-languages/python",
+              "path": "/tg/docs/tutorials/programming-languages/python",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "welcome",
+              "path": "/tg/docs/",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "/category/book-summaries",
+              "path": "/tg/docs/category/book-summaries",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "/category/tutorials",
+              "path": "/tg/docs/category/tutorials",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "/category/engineering-mathematics",
+              "path": "/tg/docs/category/engineering-mathematics",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "/category/internet-of-things",
+              "path": "/tg/docs/category/internet-of-things",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "/category/programming-languages",
+              "path": "/tg/docs/category/programming-languages",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "/category/references",
+              "path": "/tg/docs/category/references",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "/category/cheat-sheet",
+              "path": "/tg/docs/category/cheat-sheet",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "/category/automation",
+              "path": "/tg/docs/category/automation",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "/category/cicd",
+              "path": "/tg/docs/category/cicd",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "/category/container",
+              "path": "/tg/docs/category/container",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "/category/kubernetes",
+              "path": "/tg/docs/category/kubernetes",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "/category/linux",
+              "path": "/tg/docs/category/linux",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "/category/network",
+              "path": "/tg/docs/category/network",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "/category/scripting",
+              "path": "/tg/docs/category/scripting",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "/category/security",
+              "path": "/tg/docs/category/security",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "/category/windows",
+              "path": "/tg/docs/category/windows",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "/category/computer-science-glossary",
+              "path": "/tg/docs/category/computer-science-glossary",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "/category/design-patterns",
+              "path": "/tg/docs/category/design-patterns",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "/category/literature",
+              "path": "/tg/docs/category/literature",
+              "sidebar": "tutorialSidebar"
+            }
+          ],
+          "draftIds": [],
+          "sidebars": {
+            "tutorialSidebar": {
+              "link": {
+                "path": "/tg/docs/",
+                "label": "welcome"
+              }
+            }
+          }
+        }
+      ],
+      "breadcrumbs": true
+    }
+  }
+}

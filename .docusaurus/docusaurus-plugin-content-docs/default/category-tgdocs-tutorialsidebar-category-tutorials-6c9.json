@@ -1,0 +1,16 @@
+{
+  "title": "Tutorials",
+  "description": " ",
+  "slug": "/category/tutorials",
+  "permalink": "/tg/docs/category/tutorials",
+  "navigation": {
+    "previous": {
+      "title": "Effective Java",
+      "permalink": "/tg/docs/book-summaries/effective-java"
+    },
+    "next": {
+      "title": "Engineering Mathematics",
+      "permalink": "/tg/docs/category/engineering-mathematics"
+    }
+  }
+}

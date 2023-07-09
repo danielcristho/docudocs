@@ -1,0 +1,16 @@
+{
+  "title": "Automation",
+  "description": "Automation.",
+  "slug": "/category/automation",
+  "permalink": "/tg/docs/category/automation",
+  "navigation": {
+    "previous": {
+      "title": "Cheat-Sheet",
+      "permalink": "/tg/docs/category/cheat-sheet"
+    },
+    "next": {
+      "title": "Ansible",
+      "permalink": "/tg/docs/references/cheat-sheet/automation/ansible-cheatsheet"
+    }
+  }
+}

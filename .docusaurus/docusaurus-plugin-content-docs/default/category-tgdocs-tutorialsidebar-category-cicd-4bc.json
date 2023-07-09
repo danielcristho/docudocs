@@ -1,0 +1,16 @@
+{
+  "title": "CICD",
+  "description": "CICD.",
+  "slug": "/category/cicd",
+  "permalink": "/tg/docs/category/cicd",
+  "navigation": {
+    "previous": {
+      "title": "Ansible",
+      "permalink": "/tg/docs/references/cheat-sheet/automation/ansible-cheatsheet"
+    },
+    "next": {
+      "title": "Git",
+      "permalink": "/tg/docs/references/cheat-sheet/cicd/git"
+    }
+  }
+}

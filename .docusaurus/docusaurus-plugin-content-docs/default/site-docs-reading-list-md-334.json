@@ -1,0 +1,31 @@
+{
+  "unversionedId": "reading-list",
+  "id": "reading-list",
+  "title": "Reading List",
+  "description": "This is a collection of articles, books, conferences and podcasts related to DevSecOps, Software Engineering and Electrical Engineering which I have read, listened or watched so far and recommend to others.",
+  "source": "@site/docs/reading-list.md",
+  "sourceDirName": ".",
+  "slug": "/reading-list",
+  "permalink": "/tg/docs/reading-list",
+  "draft": false,
+  "editUrl": "https://github.com/m19v/m19v.github.io/blob/main/docs/reading-list.md",
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "danielcristho",
+  "lastUpdatedAt": 1688478173,
+  "formattedLastUpdatedAt": "4 Июл, 2023",
+  "sidebarPosition": 3,
+  "frontMatter": {
+    "title": "Reading List",
+    "sidebar_position": 3
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Welcome",
+    "permalink": "/tg/docs/"
+  },
+  "next": {
+    "title": "Book Summaries",
+    "permalink": "/tg/docs/category/book-summaries"
+  }
+}

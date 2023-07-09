@@ -1,0 +1,29 @@
+{
+  "unversionedId": "references/cheat-sheet/windows/wmic",
+  "id": "references/cheat-sheet/windows/wmic",
+  "title": "Wmic",
+  "description": "List running processes",
+  "source": "@site/docs/references/cheat-sheet/windows/wmic.md",
+  "sourceDirName": "references/cheat-sheet/windows",
+  "slug": "/references/cheat-sheet/windows/wmic",
+  "permalink": "/tg/docs/references/cheat-sheet/windows/wmic",
+  "draft": false,
+  "editUrl": "https://github.com/m19v/m19v.github.io/blob/main/docs/references/cheat-sheet/windows/wmic.md",
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "danielcristho",
+  "lastUpdatedAt": 1688478173,
+  "formattedLastUpdatedAt": "4 Июл, 2023",
+  "frontMatter": {
+    "title": "Wmic"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Netsh",
+    "permalink": "/tg/docs/references/cheat-sheet/windows/netsh"
+  },
+  "next": {
+    "title": "WSL",
+    "permalink": "/tg/docs/references/cheat-sheet/windows/wsl"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "Welcome to my website": "Welcome to my website",
+  "homepage.welcome.to": "Хуш омадед ба",
+  "homepage.hero.subtitle": "фазои як мухлиси Linux, DevSecOps Engineer ва Backend Software Developer",
+  "homepage.hero.subsubtitle": "Дар ин ҷо дастурҳо, роҳнамоҳо, истинодҳо ва мақолаҳоро дар бораи Linux, DevSecOps ва Software Development барои истифодаи ҳаррӯзаи худ ва барои ҳар касе, ки мехоҳад Software Developer шавад, ҷамъоварӣ мешаванд.",
+  "home.feature.card.tutorials.title": "Дастурҳо",
+  "home.feature.card.tutorials.description": "Дастурҳоро оид ба забонҳои барномасозӣ ва абзорҳои DevSecOps паймоиш кунед.",
+  "home.feature.card.references.title": "Истинодҳо",
+  "home.feature.card.references.description": "Истинодҳои CLI ва API-и забонҳои барномасозӣ ва абзорҳои DevSecOps-ро истифода баред.",
+  "home.feature.card.blog.title": "Мақолаҳо",
+  "home.feature.card.blog.description": "Мақолаҳои охиринро дар мавзӯъҳои Software Development ва DevSecOps пайгирӣ кунед.",
+  "about.aboutMeTittle": "Дар бораи муаллиф",
+  "about.aboutMeHello": "Салом,",
+  "about.aboutMeFirstP": ""
+}

@@ -1,0 +1,29 @@
+{
+  "unversionedId": "references/cheat-sheet/cicd/jenkins",
+  "id": "references/cheat-sheet/cicd/jenkins",
+  "title": "Jenkins",
+  "description": "Jenkinsfile (Declarative Pipeline) - Example Structure",
+  "source": "@site/docs/references/cheat-sheet/cicd/jenkins.md",
+  "sourceDirName": "references/cheat-sheet/cicd",
+  "slug": "/references/cheat-sheet/cicd/jenkins",
+  "permalink": "/tg/docs/references/cheat-sheet/cicd/jenkins",
+  "draft": false,
+  "editUrl": "https://github.com/m19v/m19v.github.io/blob/main/docs/references/cheat-sheet/cicd/jenkins.md",
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "danielcristho",
+  "lastUpdatedAt": 1688478173,
+  "formattedLastUpdatedAt": "4 Июл, 2023",
+  "frontMatter": {
+    "title": "Jenkins"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Git",
+    "permalink": "/tg/docs/references/cheat-sheet/cicd/git"
+  },
+  "next": {
+    "title": "Maven",
+    "permalink": "/tg/docs/references/cheat-sheet/cicd/maven"
+  }
+}

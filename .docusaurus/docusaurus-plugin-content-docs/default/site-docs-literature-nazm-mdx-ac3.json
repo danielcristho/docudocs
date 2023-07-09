@@ -1,0 +1,47 @@
+{
+  "unversionedId": "literature/nazm",
+  "id": "literature/nazm",
+  "title": "Шеър, ғазал, рубоӣ",
+  "description": "",
+  "source": "@site/docs/literature/nazm.mdx",
+  "sourceDirName": "literature",
+  "slug": "/literature/nazm",
+  "permalink": "/tg/docs/literature/nazm",
+  "draft": false,
+  "editUrl": "https://github.com/m19v/m19v.github.io/blob/main/docs/literature/nazm.mdx",
+  "tags": [
+    {
+      "label": "literature",
+      "permalink": "/tg/docs/tags/literature"
+    },
+    {
+      "label": "poetry",
+      "permalink": "/tg/docs/tags/poetry"
+    },
+    {
+      "label": "tajik",
+      "permalink": "/tg/docs/tags/tajik"
+    }
+  ],
+  "version": "current",
+  "lastUpdatedBy": "danielcristho",
+  "lastUpdatedAt": 1688478173,
+  "formattedLastUpdatedAt": "4 Июл, 2023",
+  "frontMatter": {
+    "title": "Шеър, ғазал, рубоӣ",
+    "tags": [
+      "literature",
+      "poetry",
+      "tajik"
+    ]
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Зарбулмасал ва ҳикматҳо",
+    "permalink": "/tg/docs/literature/nasr"
+  },
+  "next": {
+    "title": "Proverbs and Quotes",
+    "permalink": "/tg/docs/literature/proverbs-and-quotes"
+  }
+}

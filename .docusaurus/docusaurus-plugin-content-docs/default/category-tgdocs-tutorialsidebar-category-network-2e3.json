@@ -1,0 +1,16 @@
+{
+  "title": "Network",
+  "description": "Network.",
+  "slug": "/category/network",
+  "permalink": "/tg/docs/category/network",
+  "navigation": {
+    "previous": {
+      "title": "Systemd",
+      "permalink": "/tg/docs/references/cheat-sheet/linux/systemd"
+    },
+    "next": {
+      "title": "Curl",
+      "permalink": "/tg/docs/references/cheat-sheet/network/curl"
+    }
+  }
+}

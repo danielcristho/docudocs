@@ -1,0 +1,29 @@
+{
+  "unversionedId": "references/cheat-sheet/container/dockerfile",
+  "id": "references/cheat-sheet/container/dockerfile",
+  "title": "Dockerfile",
+  "description": "Inheritance",
+  "source": "@site/docs/references/cheat-sheet/container/dockerfile.md",
+  "sourceDirName": "references/cheat-sheet/container",
+  "slug": "/references/cheat-sheet/container/dockerfile",
+  "permalink": "/tg/docs/references/cheat-sheet/container/dockerfile",
+  "draft": false,
+  "editUrl": "https://github.com/m19v/m19v.github.io/blob/main/docs/references/cheat-sheet/container/dockerfile.md",
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "danielcristho",
+  "lastUpdatedAt": 1688478173,
+  "formattedLastUpdatedAt": "4 Июл, 2023",
+  "frontMatter": {
+    "title": "Dockerfile"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Docker",
+    "permalink": "/tg/docs/references/cheat-sheet/container/docker"
+  },
+  "next": {
+    "title": "Kubernetes",
+    "permalink": "/tg/docs/category/kubernetes"
+  }
+}

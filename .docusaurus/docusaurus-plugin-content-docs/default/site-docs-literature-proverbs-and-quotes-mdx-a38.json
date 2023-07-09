@@ -1,0 +1,52 @@
+{
+  "unversionedId": "literature/proverbs-and-quotes",
+  "id": "literature/proverbs-and-quotes",
+  "title": "Proverbs and Quotes",
+  "description": "",
+  "source": "@site/docs/literature/proverbs-and-quotes.mdx",
+  "sourceDirName": "literature",
+  "slug": "/literature/proverbs-and-quotes",
+  "permalink": "/tg/docs/literature/proverbs-and-quotes",
+  "draft": false,
+  "editUrl": "https://github.com/m19v/m19v.github.io/blob/main/docs/literature/proverbs-and-quotes.mdx",
+  "tags": [
+    {
+      "label": "literature",
+      "permalink": "/tg/docs/tags/literature"
+    },
+    {
+      "label": "proverb",
+      "permalink": "/tg/docs/tags/proverb"
+    },
+    {
+      "label": "quotes",
+      "permalink": "/tg/docs/tags/quotes"
+    },
+    {
+      "label": "english",
+      "permalink": "/tg/docs/tags/english"
+    }
+  ],
+  "version": "current",
+  "lastUpdatedBy": "danielcristho",
+  "lastUpdatedAt": 1688478173,
+  "formattedLastUpdatedAt": "4 Июл, 2023",
+  "frontMatter": {
+    "title": "Proverbs and Quotes",
+    "tags": [
+      "literature",
+      "proverb",
+      "quotes",
+      "english"
+    ]
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Шеър, ғазал, рубоӣ",
+    "permalink": "/tg/docs/literature/nazm"
+  },
+  "next": {
+    "title": "Абзорҳо",
+    "permalink": "/tg/docs/tools"
+  }
+}

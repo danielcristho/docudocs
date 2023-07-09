@@ -1,0 +1,29 @@
+{
+  "unversionedId": "references/cheat-sheet/security/openssl",
+  "id": "references/cheat-sheet/security/openssl",
+  "title": "OpenSSL",
+  "description": "Commands",
+  "source": "@site/docs/references/cheat-sheet/security/openssl.md",
+  "sourceDirName": "references/cheat-sheet/security",
+  "slug": "/references/cheat-sheet/security/openssl",
+  "permalink": "/tg/docs/references/cheat-sheet/security/openssl",
+  "draft": false,
+  "editUrl": "https://github.com/m19v/m19v.github.io/blob/main/docs/references/cheat-sheet/security/openssl.md",
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "danielcristho",
+  "lastUpdatedAt": 1688478173,
+  "formattedLastUpdatedAt": "4 Июл, 2023",
+  "frontMatter": {
+    "title": "OpenSSL"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Https",
+    "permalink": "/tg/docs/references/cheat-sheet/security/https"
+  },
+  "next": {
+    "title": "SSL Certificate",
+    "permalink": "/tg/docs/references/cheat-sheet/security/ssl-certificate"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "unversionedId": "tutorials/engineering-mathematics/numerical-analysis",
+  "id": "tutorials/engineering-mathematics/numerical-analysis",
+  "title": "Numerical analysis",
+  "description": "Golden ratio",
+  "source": "@site/docs/tutorials/engineering-mathematics/numerical-analysis.md",
+  "sourceDirName": "tutorials/engineering-mathematics",
+  "slug": "/tutorials/engineering-mathematics/numerical-analysis",
+  "permalink": "/tg/docs/tutorials/engineering-mathematics/numerical-analysis",
+  "draft": false,
+  "editUrl": "https://github.com/m19v/m19v.github.io/blob/main/docs/tutorials/engineering-mathematics/numerical-analysis.md",
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "danielcristho",
+  "lastUpdatedAt": 1688478173,
+  "formattedLastUpdatedAt": "4 Июл, 2023",
+  "frontMatter": {
+    "title": "Numerical analysis"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Engineering Mathematics",
+    "permalink": "/tg/docs/category/engineering-mathematics"
+  },
+  "next": {
+    "title": "Internet of Things",
+    "permalink": "/tg/docs/category/internet-of-things"
+  }
+}

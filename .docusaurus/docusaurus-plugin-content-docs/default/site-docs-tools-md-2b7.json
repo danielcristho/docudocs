@@ -1,0 +1,27 @@
+{
+  "unversionedId": "tools",
+  "id": "tools",
+  "title": "Tools",
+  "description": "This is a list of all tools and applications, that I’m personally using in my development environment.",
+  "source": "@site/docs/tools.md",
+  "sourceDirName": ".",
+  "slug": "/tools",
+  "permalink": "/docs/tools",
+  "draft": false,
+  "editUrl": "https://github.com/m19v/m19v.github.io/blob/main/docs/tools.md",
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "danielcristho",
+  "lastUpdatedAt": 1688478173,
+  "formattedLastUpdatedAt": "Jul 4, 2023",
+  "sidebarPosition": 8,
+  "frontMatter": {
+    "title": "Tools",
+    "sidebar_position": 8
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Proverbs and Quotes",
+    "permalink": "/docs/literature/proverbs-and-quotes"
+  }
+}

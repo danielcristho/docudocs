@@ -1,0 +1,28 @@
+{
+  "unversionedId": "welcome",
+  "id": "welcome",
+  "title": "Welcome",
+  "description": "<!---",
+  "source": "@site/docs/welcome.md",
+  "sourceDirName": ".",
+  "slug": "/",
+  "permalink": "/tg/docs/",
+  "draft": false,
+  "editUrl": "https://github.com/m19v/m19v.github.io/blob/main/docs/welcome.md",
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "danielcristho",
+  "lastUpdatedAt": 1688478173,
+  "formattedLastUpdatedAt": "4 Июл, 2023",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "title": "Welcome",
+    "slug": "/",
+    "sidebar_position": 1
+  },
+  "sidebar": "tutorialSidebar",
+  "next": {
+    "title": "Reading List",
+    "permalink": "/tg/docs/reading-list"
+  }
+}

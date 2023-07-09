@@ -1,0 +1,29 @@
+{
+  "unversionedId": "references/cheat-sheet/scripting/bash",
+  "id": "references/cheat-sheet/scripting/bash",
+  "title": "Bash",
+  "description": "Introduction",
+  "source": "@site/docs/references/cheat-sheet/scripting/bash.md",
+  "sourceDirName": "references/cheat-sheet/scripting",
+  "slug": "/references/cheat-sheet/scripting/bash",
+  "permalink": "/tg/docs/references/cheat-sheet/scripting/bash",
+  "draft": false,
+  "editUrl": "https://github.com/m19v/m19v.github.io/blob/main/docs/references/cheat-sheet/scripting/bash.md",
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "danielcristho",
+  "lastUpdatedAt": 1688478173,
+  "formattedLastUpdatedAt": "4 Июл, 2023",
+  "frontMatter": {
+    "title": "Bash"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Scripting",
+    "permalink": "/tg/docs/category/scripting"
+  },
+  "next": {
+    "title": "Python",
+    "permalink": "/tg/docs/references/cheat-sheet/scripting/python"
+  }
+}

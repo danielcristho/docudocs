@@ -1,0 +1,16 @@
+{
+  "title": "Engineering Mathematics",
+  "description": "Engineering mathematics is a branch of applied mathematics concerning mathematical methods and techniques that are typically used in engineering and industry.",
+  "slug": "/category/engineering-mathematics",
+  "permalink": "/tg/docs/category/engineering-mathematics",
+  "navigation": {
+    "previous": {
+      "title": "Tutorials",
+      "permalink": "/tg/docs/category/tutorials"
+    },
+    "next": {
+      "title": "Numerical analysis",
+      "permalink": "/tg/docs/tutorials/engineering-mathematics/numerical-analysis"
+    }
+  }
+}

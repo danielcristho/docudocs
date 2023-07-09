@@ -1,0 +1,16 @@
+{
+  "title": "Programming Languages",
+  "description": " ",
+  "slug": "/category/programming-languages",
+  "permalink": "/tg/docs/category/programming-languages",
+  "navigation": {
+    "previous": {
+      "title": "Raspberry Pi",
+      "permalink": "/tg/docs/tutorials/iot/raspberry-pi"
+    },
+    "next": {
+      "title": "Bash",
+      "permalink": "/tg/docs/tutorials/programming-languages/bash"
+    }
+  }
+}

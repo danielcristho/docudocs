@@ -1,0 +1,27 @@
+{
+  "unversionedId": "tools",
+  "id": "tools",
+  "title": "Абзорҳо",
+  "description": "Санаи нашр: 16.08.2022",
+  "source": "@site/i18n/tg/docusaurus-plugin-content-docs/current/tools.md",
+  "sourceDirName": ".",
+  "slug": "/tools",
+  "permalink": "/tg/docs/tools",
+  "draft": false,
+  "editUrl": "https://github.com/m19v/m19v.github.io/blob/main/docs/tools.md",
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "danielcristho",
+  "lastUpdatedAt": 1688478173,
+  "formattedLastUpdatedAt": "4 Июл, 2023",
+  "sidebarPosition": 8,
+  "frontMatter": {
+    "title": "Абзорҳо",
+    "sidebar_position": 8
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Proverbs and Quotes",
+    "permalink": "/tg/docs/literature/proverbs-and-quotes"
+  }
+}

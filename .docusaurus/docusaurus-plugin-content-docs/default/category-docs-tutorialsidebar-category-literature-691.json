@@ -1,0 +1,16 @@
+{
+  "title": "Literature",
+  "description": " ",
+  "slug": "/category/literature",
+  "permalink": "/docs/category/literature",
+  "navigation": {
+    "previous": {
+      "title": "Design Patterns",
+      "permalink": "/docs/references/design-patterns/"
+    },
+    "next": {
+      "title": "Зарбулмасал ва ҳикматҳо",
+      "permalink": "/docs/literature/nasr"
+    }
+  }
+}

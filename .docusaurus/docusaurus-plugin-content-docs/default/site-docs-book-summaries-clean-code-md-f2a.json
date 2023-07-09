@@ -1,0 +1,29 @@
+{
+  "unversionedId": "book-summaries/clean-code",
+  "id": "book-summaries/clean-code",
+  "title": "Clean Code",
+  "description": "Content",
+  "source": "@site/docs/book-summaries/clean-code.md",
+  "sourceDirName": "book-summaries",
+  "slug": "/book-summaries/clean-code",
+  "permalink": "/tg/docs/book-summaries/clean-code",
+  "draft": false,
+  "editUrl": "https://github.com/m19v/m19v.github.io/blob/main/docs/book-summaries/clean-code.md",
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "danielcristho",
+  "lastUpdatedAt": 1688478173,
+  "formattedLastUpdatedAt": "4 Июл, 2023",
+  "frontMatter": {
+    "title": "Clean Code"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Atomic Habits",
+    "permalink": "/tg/docs/book-summaries/atomic-habits"
+  },
+  "next": {
+    "title": "Effective Java",
+    "permalink": "/tg/docs/book-summaries/effective-java"
+  }
+}

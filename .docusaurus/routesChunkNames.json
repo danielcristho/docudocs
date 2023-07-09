@@ -1,0 +1,475 @@
+{
+  "/tg/about-9a8": {
+    "__comp": "958aeffe",
+    "__context": {
+      "plugin": "16713bd3"
+    },
+    "config": "5e9f5e1a"
+  },
+  "/tg/blog-bae": {
+    "__comp": "a6aa9e1f",
+    "__context": {
+      "plugin": "af9c9c6e"
+    },
+    "sidebar": "814f3328",
+    "items": [
+      {
+        "content": "2b54c173"
+      },
+      {
+        "content": "65378233"
+      }
+    ],
+    "metadata": "fd595964"
+  },
+  "/tg/blog/archive-807": {
+    "__comp": "9e4087bc",
+    "__context": {
+      "plugin": "af9c9c6e"
+    },
+    "archive": "30a7d59f"
+  },
+  "/tg/blog/how-to-add-giscus-to-docusaurus-5b3": {
+    "__comp": "ccc49370",
+    "__context": {
+      "plugin": "af9c9c6e"
+    },
+    "sidebar": "814f3328",
+    "content": "1adc9394"
+  },
+  "/tg/blog/how-to-bind-sonarlint-with-sonarqube-in-intellij-ide-bb1": {
+    "__comp": "ccc49370",
+    "__context": {
+      "plugin": "af9c9c6e"
+    },
+    "sidebar": "814f3328",
+    "content": "e8b99655"
+  },
+  "/tg/blog/tags-ab5": {
+    "__comp": "01a85c17",
+    "__context": {
+      "plugin": "af9c9c6e"
+    },
+    "sidebar": "814f3328",
+    "tags": "a1bbf9d2"
+  },
+  "/tg/blog/tags/commenting-system-1ee": {
+    "__comp": "6875c492",
+    "__context": {
+      "plugin": "af9c9c6e"
+    },
+    "sidebar": "814f3328",
+    "items": [
+      {
+        "content": "65378233"
+      }
+    ],
+    "tag": "8e855909",
+    "listMetadata": "2e14644e"
+  },
+  "/tg/blog/tags/docusaurus-4d8": {
+    "__comp": "6875c492",
+    "__context": {
+      "plugin": "af9c9c6e"
+    },
+    "sidebar": "814f3328",
+    "items": [
+      {
+        "content": "65378233"
+      }
+    ],
+    "tag": "d5f6e038",
+    "listMetadata": "23971c31"
+  },
+  "/tg/blog/tags/giscus-6e2": {
+    "__comp": "6875c492",
+    "__context": {
+      "plugin": "af9c9c6e"
+    },
+    "sidebar": "814f3328",
+    "items": [
+      {
+        "content": "65378233"
+      }
+    ],
+    "tag": "eace7609",
+    "listMetadata": "f12b216f"
+  },
+  "/tg/blog/tags/how-to-12b": {
+    "__comp": "6875c492",
+    "__context": {
+      "plugin": "af9c9c6e"
+    },
+    "sidebar": "814f3328",
+    "items": [
+      {
+        "content": "2b54c173"
+      },
+      {
+        "content": "65378233"
+      }
+    ],
+    "tag": "f7825364",
+    "listMetadata": "23a62fed"
+  },
+  "/tg/blog/tags/intellij-316": {
+    "__comp": "6875c492",
+    "__context": {
+      "plugin": "af9c9c6e"
+    },
+    "sidebar": "814f3328",
+    "items": [
+      {
+        "content": "2b54c173"
+      }
+    ],
+    "tag": "8473c986",
+    "listMetadata": "e9257ad0"
+  },
+  "/tg/blog/tags/sonarlint-49e": {
+    "__comp": "6875c492",
+    "__context": {
+      "plugin": "af9c9c6e"
+    },
+    "sidebar": "814f3328",
+    "items": [
+      {
+        "content": "2b54c173"
+      }
+    ],
+    "tag": "66c686b3",
+    "listMetadata": "1e147cfe"
+  },
+  "/tg/blog/tags/sonarqube-74a": {
+    "__comp": "6875c492",
+    "__context": {
+      "plugin": "af9c9c6e"
+    },
+    "sidebar": "814f3328",
+    "items": [
+      {
+        "content": "2b54c173"
+      }
+    ],
+    "tag": "0f009cec",
+    "listMetadata": "8f53d8fd"
+  },
+  "/tg/docs/tags-f64": {
+    "__comp": "3720c009",
+    "__context": {
+      "plugin": "06250f06"
+    },
+    "tags": "55960ee5"
+  },
+  "/tg/docs/tags/english-df7": {
+    "__comp": "df203c0f",
+    "__context": {
+      "plugin": "06250f06"
+    },
+    "tag": "a0689a75"
+  },
+  "/tg/docs/tags/literature-779": {
+    "__comp": "df203c0f",
+    "__context": {
+      "plugin": "06250f06"
+    },
+    "tag": "10eae0d4"
+  },
+  "/tg/docs/tags/poetry-5bb": {
+    "__comp": "df203c0f",
+    "__context": {
+      "plugin": "06250f06"
+    },
+    "tag": "0d6f3556"
+  },
+  "/tg/docs/tags/prose-215": {
+    "__comp": "df203c0f",
+    "__context": {
+      "plugin": "06250f06"
+    },
+    "tag": "730dfa67"
+  },
+  "/tg/docs/tags/proverb-472": {
+    "__comp": "df203c0f",
+    "__context": {
+      "plugin": "06250f06"
+    },
+    "tag": "a1051698"
+  },
+  "/tg/docs/tags/quotes-195": {
+    "__comp": "df203c0f",
+    "__context": {
+      "plugin": "06250f06"
+    },
+    "tag": "844c815d"
+  },
+  "/tg/docs/tags/tajik-49d": {
+    "__comp": "df203c0f",
+    "__context": {
+      "plugin": "06250f06"
+    },
+    "tag": "bc924cf2"
+  },
+  "/tg/docs-252": {
+    "__comp": "1be78505",
+    "__context": {
+      "plugin": "06250f06"
+    },
+    "versionMetadata": "935f2afb"
+  },
+  "/tg/docs-15e": {
+    "__comp": "17896441",
+    "content": "ebfee794"
+  },
+  "/tg/docs/book-summaries/a-brief-history-of-time-701": {
+    "__comp": "17896441",
+    "content": "7e1c4adf"
+  },
+  "/tg/docs/book-summaries/atomic-habits-d76": {
+    "__comp": "17896441",
+    "content": "c10b2e89"
+  },
+  "/tg/docs/book-summaries/clean-code-03e": {
+    "__comp": "17896441",
+    "content": "f2a3edcf"
+  },
+  "/tg/docs/book-summaries/effective-java-5f7": {
+    "__comp": "17896441",
+    "content": "6c706f5a"
+  },
+  "/tg/docs/category/automation-11f": {
+    "__comp": "14eb3368",
+    "categoryGeneratedIndex": "6a9d1d56"
+  },
+  "/tg/docs/category/book-summaries-258": {
+    "__comp": "14eb3368",
+    "categoryGeneratedIndex": "10e618e9"
+  },
+  "/tg/docs/category/cheat-sheet-d42": {
+    "__comp": "14eb3368",
+    "categoryGeneratedIndex": "f12ef41d"
+  },
+  "/tg/docs/category/cicd-85c": {
+    "__comp": "14eb3368",
+    "categoryGeneratedIndex": "ac38ecf8"
+  },
+  "/tg/docs/category/computer-science-glossary-d73": {
+    "__comp": "14eb3368",
+    "categoryGeneratedIndex": "66396ba0"
+  },
+  "/tg/docs/category/container-86a": {
+    "__comp": "14eb3368",
+    "categoryGeneratedIndex": "f300c131"
+  },
+  "/tg/docs/category/design-patterns-c98": {
+    "__comp": "14eb3368",
+    "categoryGeneratedIndex": "45afe1e5"
+  },
+  "/tg/docs/category/engineering-mathematics-7c3": {
+    "__comp": "14eb3368",
+    "categoryGeneratedIndex": "b1e9beea"
+  },
+  "/tg/docs/category/internet-of-things-d54": {
+    "__comp": "14eb3368",
+    "categoryGeneratedIndex": "2072eccc"
+  },
+  "/tg/docs/category/kubernetes-ae9": {
+    "__comp": "14eb3368",
+    "categoryGeneratedIndex": "5dc7c324"
+  },
+  "/tg/docs/category/linux-adc": {
+    "__comp": "14eb3368",
+    "categoryGeneratedIndex": "6216df75"
+  },
+  "/tg/docs/category/literature-c4b": {
+    "__comp": "14eb3368",
+    "categoryGeneratedIndex": "73cea43a"
+  },
+  "/tg/docs/category/network-f5e": {
+    "__comp": "14eb3368",
+    "categoryGeneratedIndex": "60746dd2"
+  },
+  "/tg/docs/category/programming-languages-6c1": {
+    "__comp": "14eb3368",
+    "categoryGeneratedIndex": "e5d51ed6"
+  },
+  "/tg/docs/category/references-22c": {
+    "__comp": "14eb3368",
+    "categoryGeneratedIndex": "32cadf19"
+  },
+  "/tg/docs/category/scripting-adf": {
+    "__comp": "14eb3368",
+    "categoryGeneratedIndex": "a1c8816e"
+  },
+  "/tg/docs/category/security-cd6": {
+    "__comp": "14eb3368",
+    "categoryGeneratedIndex": "21ba8b86"
+  },
+  "/tg/docs/category/tutorials-b19": {
+    "__comp": "14eb3368",
+    "categoryGeneratedIndex": "9fe93df6"
+  },
+  "/tg/docs/category/windows-59c": {
+    "__comp": "14eb3368",
+    "categoryGeneratedIndex": "cf3208e3"
+  },
+  "/tg/docs/literature/nasr-57a": {
+    "__comp": "17896441",
+    "content": "409e6808"
+  },
+  "/tg/docs/literature/nazm-6b4": {
+    "__comp": "17896441",
+    "content": "ac326091"
+  },
+  "/tg/docs/literature/proverbs-and-quotes-585": {
+    "__comp": "17896441",
+    "content": "a38d9d17"
+  },
+  "/tg/docs/reading-list-799": {
+    "__comp": "17896441",
+    "content": "3344da23"
+  },
+  "/tg/docs/references/awesome-df0": {
+    "__comp": "17896441",
+    "content": "e0532fd6"
+  },
+  "/tg/docs/references/cheat-sheet/automation/ansible-cheatsheet-7ab": {
+    "__comp": "17896441",
+    "content": "3b70e32d"
+  },
+  "/tg/docs/references/cheat-sheet/cicd/git-044": {
+    "__comp": "17896441",
+    "content": "c355f0a9"
+  },
+  "/tg/docs/references/cheat-sheet/cicd/jenkins-76f": {
+    "__comp": "17896441",
+    "content": "9dcbe522"
+  },
+  "/tg/docs/references/cheat-sheet/cicd/maven-f09": {
+    "__comp": "17896441",
+    "content": "3917c78e"
+  },
+  "/tg/docs/references/cheat-sheet/container/docker-6d9": {
+    "__comp": "17896441",
+    "content": "5fddc6bb"
+  },
+  "/tg/docs/references/cheat-sheet/container/docker-compose-cb6": {
+    "__comp": "17896441",
+    "content": "569f0628"
+  },
+  "/tg/docs/references/cheat-sheet/container/dockerfile-597": {
+    "__comp": "17896441",
+    "content": "5de20f9c"
+  },
+  "/tg/docs/references/cheat-sheet/k8s/helm-147": {
+    "__comp": "17896441",
+    "content": "98aaaeab"
+  },
+  "/tg/docs/references/cheat-sheet/k8s/kubectl-e49": {
+    "__comp": "17896441",
+    "content": "126cd36e"
+  },
+  "/tg/docs/references/cheat-sheet/k8s/minikube-2fa": {
+    "__comp": "17896441",
+    "content": "4a4893a9"
+  },
+  "/tg/docs/references/cheat-sheet/linux/systemd-fc2": {
+    "__comp": "17896441",
+    "content": "e25bc4d2"
+  },
+  "/tg/docs/references/cheat-sheet/network/curl-63a": {
+    "__comp": "17896441",
+    "content": "74a35603"
+  },
+  "/tg/docs/references/cheat-sheet/network/iptables-a9d": {
+    "__comp": "17896441",
+    "content": "140534f8"
+  },
+  "/tg/docs/references/cheat-sheet/network/linux-networking-70d": {
+    "__comp": "17896441",
+    "content": "f7572a92"
+  },
+  "/tg/docs/references/cheat-sheet/network/ssh-df9": {
+    "__comp": "17896441",
+    "content": "1868d606"
+  },
+  "/tg/docs/references/cheat-sheet/scripting/bash-b41": {
+    "__comp": "17896441",
+    "content": "7c690f5b"
+  },
+  "/tg/docs/references/cheat-sheet/scripting/python-70a": {
+    "__comp": "17896441",
+    "content": "d8ff8691"
+  },
+  "/tg/docs/references/cheat-sheet/security/https-76b": {
+    "__comp": "17896441",
+    "content": "037ffec8"
+  },
+  "/tg/docs/references/cheat-sheet/security/openssl-c83": {
+    "__comp": "17896441",
+    "content": "eb4095cf"
+  },
+  "/tg/docs/references/cheat-sheet/security/ssl-certificate-ac9": {
+    "__comp": "17896441",
+    "content": "d0e554cc"
+  },
+  "/tg/docs/references/cheat-sheet/windows/netsh-f57": {
+    "__comp": "17896441",
+    "content": "990716cf"
+  },
+  "/tg/docs/references/cheat-sheet/windows/wmic-2af": {
+    "__comp": "17896441",
+    "content": "1c96bf97"
+  },
+  "/tg/docs/references/cheat-sheet/windows/wsl-90b": {
+    "__comp": "17896441",
+    "content": "8d91a11e"
+  },
+  "/tg/docs/references/computer-science-glossary/computer-science-glossary-tj-757": {
+    "__comp": "17896441",
+    "content": "de002a13"
+  },
+  "/tg/docs/references/computer-science-glossary/programming-glossary-dd4": {
+    "__comp": "17896441",
+    "content": "8813e68d"
+  },
+  "/tg/docs/references/design-patterns-777": {
+    "__comp": "17896441",
+    "content": "cb992aca"
+  },
+  "/tg/docs/tools-b6c": {
+    "__comp": "17896441",
+    "content": "001805cc"
+  },
+  "/tg/docs/tutorials/engineering-mathematics/numerical-analysis-284": {
+    "__comp": "17896441",
+    "content": "c7f7dfae"
+  },
+  "/tg/docs/tutorials/iot/home-automation-345": {
+    "__comp": "17896441",
+    "content": "1c5bf276"
+  },
+  "/tg/docs/tutorials/iot/raspberry-pi-5c7": {
+    "__comp": "17896441",
+    "content": "ff0de1c6"
+  },
+  "/tg/docs/tutorials/programming-languages/bash-daa": {
+    "__comp": "17896441",
+    "content": "fb424775"
+  },
+  "/tg/docs/tutorials/programming-languages/java-5b3": {
+    "__comp": "17896441",
+    "content": "8b68c4f3"
+  },
+  "/tg/docs/tutorials/programming-languages/python-6b0": {
+    "__comp": "17896441",
+    "content": "bc6ead21"
+  },
+  "/tg/-fc0": {
+    "__comp": "c4f5d8e4",
+    "__context": {
+      "plugin": "16713bd3"
+    },
+    "config": "5e9f5e1a"
+  }
+}

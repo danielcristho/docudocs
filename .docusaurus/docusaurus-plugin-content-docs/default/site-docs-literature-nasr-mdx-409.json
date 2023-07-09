@@ -1,0 +1,47 @@
+{
+  "unversionedId": "literature/nasr",
+  "id": "literature/nasr",
+  "title": "Зарбулмасал ва ҳикматҳо",
+  "description": "",
+  "source": "@site/docs/literature/nasr.mdx",
+  "sourceDirName": "literature",
+  "slug": "/literature/nasr",
+  "permalink": "/tg/docs/literature/nasr",
+  "draft": false,
+  "editUrl": "https://github.com/m19v/m19v.github.io/blob/main/docs/literature/nasr.mdx",
+  "tags": [
+    {
+      "label": "literature",
+      "permalink": "/tg/docs/tags/literature"
+    },
+    {
+      "label": "prose",
+      "permalink": "/tg/docs/tags/prose"
+    },
+    {
+      "label": "tajik",
+      "permalink": "/tg/docs/tags/tajik"
+    }
+  ],
+  "version": "current",
+  "lastUpdatedBy": "danielcristho",
+  "lastUpdatedAt": 1688478173,
+  "formattedLastUpdatedAt": "4 Июл, 2023",
+  "frontMatter": {
+    "title": "Зарбулмасал ва ҳикматҳо",
+    "tags": [
+      "literature",
+      "prose",
+      "tajik"
+    ]
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Literature",
+    "permalink": "/tg/docs/category/literature"
+  },
+  "next": {
+    "title": "Шеър, ғазал, рубоӣ",
+    "permalink": "/tg/docs/literature/nazm"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "unversionedId": "book-summaries/atomic-habits",
+  "id": "book-summaries/atomic-habits",
+  "title": "Atomic Habits",
+  "description": "Content",
+  "source": "@site/docs/book-summaries/atomic-habits.md",
+  "sourceDirName": "book-summaries",
+  "slug": "/book-summaries/atomic-habits",
+  "permalink": "/tg/docs/book-summaries/atomic-habits",
+  "draft": false,
+  "editUrl": "https://github.com/m19v/m19v.github.io/blob/main/docs/book-summaries/atomic-habits.md",
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "danielcristho",
+  "lastUpdatedAt": 1688478173,
+  "formattedLastUpdatedAt": "4 Июл, 2023",
+  "frontMatter": {
+    "title": "Atomic Habits"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "A Brief History of Time",
+    "permalink": "/tg/docs/book-summaries/a-brief-history-of-time"
+  },
+  "next": {
+    "title": "Clean Code",
+    "permalink": "/tg/docs/book-summaries/clean-code"
+  }
+}

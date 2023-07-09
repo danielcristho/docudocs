@@ -1,0 +1,29 @@
+{
+  "unversionedId": "references/cheat-sheet/scripting/python",
+  "id": "references/cheat-sheet/scripting/python",
+  "title": "Python",
+  "description": "Math operations",
+  "source": "@site/docs/references/cheat-sheet/scripting/python.md",
+  "sourceDirName": "references/cheat-sheet/scripting",
+  "slug": "/references/cheat-sheet/scripting/python",
+  "permalink": "/tg/docs/references/cheat-sheet/scripting/python",
+  "draft": false,
+  "editUrl": "https://github.com/m19v/m19v.github.io/blob/main/docs/references/cheat-sheet/scripting/python.md",
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "danielcristho",
+  "lastUpdatedAt": 1688478173,
+  "formattedLastUpdatedAt": "4 Июл, 2023",
+  "frontMatter": {
+    "title": "Python"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Bash",
+    "permalink": "/tg/docs/references/cheat-sheet/scripting/bash"
+  },
+  "next": {
+    "title": "Security",
+    "permalink": "/tg/docs/category/security"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "title": "Computer Science Glossary",
+  "description": "The glossary of computer science is a list of definitions of terms and concepts used in computer science, its sub-disciplines, and related fields, including terms relevant to software, data science, and computer programming.",
+  "slug": "/category/computer-science-glossary",
+  "permalink": "/docs/category/computer-science-glossary",
+  "navigation": {
+    "previous": {
+      "title": "WSL",
+      "permalink": "/docs/references/cheat-sheet/windows/wsl"
+    },
+    "next": {
+      "title": "Истилоҳоти улуми роёна",
+      "permalink": "/docs/references/computer-science-glossary/computer-science-glossary-tj"
+    }
+  }
+}

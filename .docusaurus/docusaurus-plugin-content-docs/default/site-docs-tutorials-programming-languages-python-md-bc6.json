@@ -1,0 +1,29 @@
+{
+  "unversionedId": "tutorials/programming-languages/python",
+  "id": "tutorials/programming-languages/python",
+  "title": "Python",
+  "description": "Content",
+  "source": "@site/docs/tutorials/programming-languages/python.md",
+  "sourceDirName": "tutorials/programming-languages",
+  "slug": "/tutorials/programming-languages/python",
+  "permalink": "/tg/docs/tutorials/programming-languages/python",
+  "draft": false,
+  "editUrl": "https://github.com/m19v/m19v.github.io/blob/main/docs/tutorials/programming-languages/python.md",
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "danielcristho",
+  "lastUpdatedAt": 1688478173,
+  "formattedLastUpdatedAt": "4 Июл, 2023",
+  "frontMatter": {
+    "title": "Python"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Java",
+    "permalink": "/tg/docs/tutorials/programming-languages/java"
+  },
+  "next": {
+    "title": "References",
+    "permalink": "/tg/docs/category/references"
+  }
+}

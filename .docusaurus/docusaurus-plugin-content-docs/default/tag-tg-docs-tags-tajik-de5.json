@@ -1,0 +1,20 @@
+{
+  "label": "tajik",
+  "permalink": "/tg/docs/tags/tajik",
+  "allTagsPath": "/tg/docs/tags",
+  "count": 2,
+  "items": [
+    {
+      "id": "literature/nasr",
+      "title": "Зарбулмасал ва ҳикматҳо",
+      "description": "",
+      "permalink": "/tg/docs/literature/nasr"
+    },
+    {
+      "id": "literature/nazm",
+      "title": "Шеър, ғазал, рубоӣ",
+      "description": "",
+      "permalink": "/tg/docs/literature/nazm"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "unversionedId": "references/cheat-sheet/automation/ansible-cheatsheet",
+  "id": "references/cheat-sheet/automation/ansible-cheatsheet",
+  "title": "Ansible",
+  "description": "Ansible",
+  "source": "@site/docs/references/cheat-sheet/automation/ansible-cheatsheet.md",
+  "sourceDirName": "references/cheat-sheet/automation",
+  "slug": "/references/cheat-sheet/automation/ansible-cheatsheet",
+  "permalink": "/tg/docs/references/cheat-sheet/automation/ansible-cheatsheet",
+  "draft": false,
+  "editUrl": "https://github.com/m19v/m19v.github.io/blob/main/docs/references/cheat-sheet/automation/ansible-cheatsheet.md",
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "danielcristho",
+  "lastUpdatedAt": 1688478173,
+  "formattedLastUpdatedAt": "4 Июл, 2023",
+  "frontMatter": {
+    "title": "Ansible"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Automation",
+    "permalink": "/tg/docs/category/automation"
+  },
+  "next": {
+    "title": "CICD",
+    "permalink": "/tg/docs/category/cicd"
+  }
+}

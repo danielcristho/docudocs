@@ -1,0 +1,29 @@
+{
+  "unversionedId": "references/cheat-sheet/network/curl",
+  "id": "references/cheat-sheet/network/curl",
+  "title": "Curl",
+  "description": "Commands",
+  "source": "@site/docs/references/cheat-sheet/network/curl.md",
+  "sourceDirName": "references/cheat-sheet/network",
+  "slug": "/references/cheat-sheet/network/curl",
+  "permalink": "/tg/docs/references/cheat-sheet/network/curl",
+  "draft": false,
+  "editUrl": "https://github.com/m19v/m19v.github.io/blob/main/docs/references/cheat-sheet/network/curl.md",
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "danielcristho",
+  "lastUpdatedAt": 1688478173,
+  "formattedLastUpdatedAt": "4 Июл, 2023",
+  "frontMatter": {
+    "title": "Curl"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Network",
+    "permalink": "/tg/docs/category/network"
+  },
+  "next": {
+    "title": "Iptables",
+    "permalink": "/tg/docs/references/cheat-sheet/network/iptables"
+  }
+}

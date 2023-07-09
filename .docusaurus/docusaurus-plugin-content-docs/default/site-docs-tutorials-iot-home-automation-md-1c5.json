@@ -1,0 +1,29 @@
+{
+  "unversionedId": "tutorials/iot/home-automation",
+  "id": "tutorials/iot/home-automation",
+  "title": "Home Automation",
+  "description": "Content",
+  "source": "@site/docs/tutorials/iot/home-automation.md",
+  "sourceDirName": "tutorials/iot",
+  "slug": "/tutorials/iot/home-automation",
+  "permalink": "/tg/docs/tutorials/iot/home-automation",
+  "draft": false,
+  "editUrl": "https://github.com/m19v/m19v.github.io/blob/main/docs/tutorials/iot/home-automation.md",
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "danielcristho",
+  "lastUpdatedAt": 1688478173,
+  "formattedLastUpdatedAt": "4 Июл, 2023",
+  "frontMatter": {
+    "title": "Home Automation"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Internet of Things",
+    "permalink": "/tg/docs/category/internet-of-things"
+  },
+  "next": {
+    "title": "Raspberry Pi",
+    "permalink": "/tg/docs/tutorials/iot/raspberry-pi"
+  }
+}

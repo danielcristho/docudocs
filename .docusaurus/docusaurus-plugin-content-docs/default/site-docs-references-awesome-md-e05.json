@@ -1,0 +1,31 @@
+{
+  "unversionedId": "references/awesome",
+  "id": "references/awesome",
+  "title": "Awesome",
+  "description": "A list of Awesome resources based on main Awesome related to DevSecOps, Software Development and Electrical Engineering which I either have experience, interested to learn or use as reference.",
+  "source": "@site/docs/references/awesome.md",
+  "sourceDirName": "references",
+  "slug": "/references/awesome",
+  "permalink": "/tg/docs/references/awesome",
+  "draft": false,
+  "editUrl": "https://github.com/m19v/m19v.github.io/blob/main/docs/references/awesome.md",
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "danielcristho",
+  "lastUpdatedAt": 1688478173,
+  "formattedLastUpdatedAt": "4 Июл, 2023",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "title": "Awesome",
+    "sidebar_position": 1
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "References",
+    "permalink": "/tg/docs/category/references"
+  },
+  "next": {
+    "title": "Cheat-Sheet",
+    "permalink": "/tg/docs/category/cheat-sheet"
+  }
+}

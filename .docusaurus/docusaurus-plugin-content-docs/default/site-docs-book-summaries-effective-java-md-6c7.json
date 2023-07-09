@@ -1,0 +1,29 @@
+{
+  "unversionedId": "book-summaries/effective-java",
+  "id": "book-summaries/effective-java",
+  "title": "Effective Java",
+  "description": "Content",
+  "source": "@site/docs/book-summaries/effective-java.md",
+  "sourceDirName": "book-summaries",
+  "slug": "/book-summaries/effective-java",
+  "permalink": "/tg/docs/book-summaries/effective-java",
+  "draft": false,
+  "editUrl": "https://github.com/m19v/m19v.github.io/blob/main/docs/book-summaries/effective-java.md",
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "danielcristho",
+  "lastUpdatedAt": 1688478173,
+  "formattedLastUpdatedAt": "4 Июл, 2023",
+  "frontMatter": {
+    "title": "Effective Java"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Clean Code",
+    "permalink": "/tg/docs/book-summaries/clean-code"
+  },
+  "next": {
+    "title": "Tutorials",
+    "permalink": "/tg/docs/category/tutorials"
+  }
+}

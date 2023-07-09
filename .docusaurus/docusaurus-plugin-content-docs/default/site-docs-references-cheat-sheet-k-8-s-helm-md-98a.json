@@ -1,0 +1,29 @@
+{
+  "unversionedId": "references/cheat-sheet/k8s/helm",
+  "id": "references/cheat-sheet/k8s/helm",
+  "title": "Helm",
+  "description": "Basic terms",
+  "source": "@site/docs/references/cheat-sheet/k8s/helm.md",
+  "sourceDirName": "references/cheat-sheet/k8s",
+  "slug": "/references/cheat-sheet/k8s/helm",
+  "permalink": "/tg/docs/references/cheat-sheet/k8s/helm",
+  "draft": false,
+  "editUrl": "https://github.com/m19v/m19v.github.io/blob/main/docs/references/cheat-sheet/k8s/helm.md",
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "danielcristho",
+  "lastUpdatedAt": 1688478173,
+  "formattedLastUpdatedAt": "4 Июл, 2023",
+  "frontMatter": {
+    "title": "Helm"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Kubernetes",
+    "permalink": "/tg/docs/category/kubernetes"
+  },
+  "next": {
+    "title": "Kubectl",
+    "permalink": "/tg/docs/references/cheat-sheet/k8s/kubectl"
+  }
+}

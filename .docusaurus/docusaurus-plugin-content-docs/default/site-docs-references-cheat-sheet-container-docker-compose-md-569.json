@@ -1,0 +1,29 @@
+{
+  "unversionedId": "references/cheat-sheet/container/docker-compose",
+  "id": "references/cheat-sheet/container/docker-compose",
+  "title": "Docker Compose",
+  "description": "Commands",
+  "source": "@site/docs/references/cheat-sheet/container/docker-compose.md",
+  "sourceDirName": "references/cheat-sheet/container",
+  "slug": "/references/cheat-sheet/container/docker-compose",
+  "permalink": "/tg/docs/references/cheat-sheet/container/docker-compose",
+  "draft": false,
+  "editUrl": "https://github.com/m19v/m19v.github.io/blob/main/docs/references/cheat-sheet/container/docker-compose.md",
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "danielcristho",
+  "lastUpdatedAt": 1688478173,
+  "formattedLastUpdatedAt": "4 Июл, 2023",
+  "frontMatter": {
+    "title": "Docker Compose"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Container",
+    "permalink": "/tg/docs/category/container"
+  },
+  "next": {
+    "title": "Docker",
+    "permalink": "/tg/docs/references/cheat-sheet/container/docker"
+  }
+}
