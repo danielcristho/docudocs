@@ -15,15 +15,13 @@ function About() {
 
   return (
     <Layout title="About me" description={siteConfig.tagline}>
-      <Helmet>
+      <header className={styles.aboutHeader}>
         <link
           rel="stylesheet"
           href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
           integrity="sha512-rb6W21CQz0AmTjEEBhHOtA9u9Ux7+cCViCXcHEDBsu1RzQ0RETN7/XAYCCt+T72M+ZwO2bzM6aaZIYODewYD+A=="
           crossorigin="anonymous"
         />
-      </Helmet>
-      <header className={styles.aboutHeader}>
         <h2 className="underlineColorSuccess">
           <Translate id="about.aboutMeTittle"/>
         </h2>
