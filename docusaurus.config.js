@@ -118,7 +118,7 @@ const config = {
     },
     footer: {
       style: 'light',
-      copyright: `© ${new Date().getFullYear()} - Daniel Pepuho. Powered by <a href="https://docusaurus.io/">Docusaurus</a>.`,
+      copyright: `© ${new Date().getFullYear()} - Daniel Pepuho. Build using  <a href="https://docusaurus.io/">Docusaurus</a>.`,
     },
     prism: {
       theme: lightCodeTheme,
