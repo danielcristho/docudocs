@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkdanielcristho=self.webpackChunkdanielcristho||[]).push([[5614],{9951:s=>{s.exports=JSON.parse('{"label":"giscus","permalink":"/docudocs/blog/tags/giscus","allTagsPath":"/docudocs/blog/tags","count":1}')}}]);

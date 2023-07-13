@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkdanielcristho=self.webpackChunkdanielcristho||[]).push([[5751],{2270:o=>{o.exports=JSON.parse('{"label":"how-to","permalink":"/docudocs/blog/tags/how-to","allTagsPath":"/docudocs/blog/tags","count":2}')}}]);

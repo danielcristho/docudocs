@@ -7,7 +7,7 @@ const katex = require('rehype-katex');
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'Daniel Pepuho',
-  url: 'https://www.danielcristho.site',
+  url: 'https://hestia-docs.vercel.app',
   baseUrl: '/',
   onBrokenLinks: 'warn',
   onBrokenMarkdownLinks: 'warn',
@@ -81,13 +81,15 @@ const config = {
     {
       href: 'https://cdn.jsdelivr.net/npm/katex@0.13.24/dist/katex.min.css',
       type: 'text/css',
+      integrity:
+        'sha384-odtC+0UGzzFL/6PNoE8rX/SPcQDXBJ+uRepguP4QkPCm2LBxH3FA3y+fKSiJ+AmM',
+      crossOrigin: 'anonymous',
     },
     {
       href: 'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css',
       type: 'text/css',
     },
   ],
-
   scripts: [
     {
       src: 'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/js/all.min.js',
