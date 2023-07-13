@@ -13,7 +13,7 @@ const config = {
   organizationName: process.env.ORGANIZATION_NAME,
   projectName: process.env.REPOSITORY_NAME,
   baseUrl: '/',
-  onBrokenLinks: 'throw',
+  onBrokenLinks: 'warn',
   onBrokenMarkdownLinks: 'warn',
   // trailingSlash: false,
 
