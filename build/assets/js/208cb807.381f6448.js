@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkdanielcristho=self.webpackChunkdanielcristho||[]).push([[3954],{4141:o=>{o.exports=JSON.parse('{"permalink":"/docudocs/blog/tags/how-to","page":1,"postsPerPage":10,"totalPages":1,"totalCount":2,"blogDescription":"Blog","blogTitle":"Blog"}')}}]);

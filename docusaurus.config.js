@@ -1,3 +1,5 @@
+require("dotenv").config();
+
 const lightCodeTheme = require('prism-react-renderer/themes/github');
 const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
@@ -6,29 +8,14 @@ const katex = require('rehype-katex');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'Daniel Pepuho',
-  url: 'https://hestia-docs.vercel.app',
+  title: process.env.SITE_TITLE,
+  url: process.env.SITE_URL,
+  organizationName: process.env.ORGANIZATION_NAME,
+  projectName: process.env.REPOSITORY_NAME,
   baseUrl: '/',
-  onBrokenLinks: 'warn',
+  onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
-  organizationName: 'danielcristho',
-  projectName: 'docudocs',
-  trailingSlash: false,
-
-  i18n: {
-    defaultLocale: 'en',
-    locales: ['en'],
-    path: 'i18n',
-    localeConfigs: {
-      en: {
-        label: 'English',
-        direction: 'ltr',
-        htmlLang: 'en-US',
-        calendar: 'gregory',
-        path: 'en',
-      },
-    },
-  },
+  // trailingSlash: false,
 
   plugins: [
     // ... plugins lainnya
@@ -77,25 +64,25 @@ const config = {
       }),
     ],
   ],
-  stylesheets: [
-    {
-      href: 'https://cdn.jsdelivr.net/npm/katex@0.13.24/dist/katex.min.css',
-      type: 'text/css',
-      integrity:
-        'sha384-odtC+0UGzzFL/6PNoE8rX/SPcQDXBJ+uRepguP4QkPCm2LBxH3FA3y+fKSiJ+AmM',
-      crossOrigin: 'anonymous',
-    },
-    {
-      href: 'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css',
-      type: 'text/css',
-    },
-  ],
-  scripts: [
-    {
-      src: 'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/js/all.min.js',
-      type: 'text/javascript',
-    },
-  ],
+  // stylesheets: [
+  //   {
+  //     href: 'https://cdn.jsdelivr.net/npm/katex@0.13.24/dist/katex.min.css',
+  //     type: 'text/css',
+  //     integrity:
+  //       'sha384-odtC+0UGzzFL/6PNoE8rX/SPcQDXBJ+uRepguP4QkPCm2LBxH3FA3y+fKSiJ+AmM',
+  //     crossOrigin: 'anonymous',
+  //   },
+  //   {
+  //     href: 'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css',
+  //     type: 'text/css',
+  //   },
+  // ],
+  // scripts: [
+  //   {
+  //     src: 'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/js/all.min.js',
+  //     type: 'text/javascript',
+  //   },
+  // ],
   themeConfig: {
     navbar: {
       title: 'Home',
