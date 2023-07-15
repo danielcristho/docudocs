@@ -1,0 +1,44 @@
+.projectHeader {
+  background-color: var(--ifm-footer-background-color);
+  padding: 1rem 0;
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+  display: block;
+}
+
+.projectsHeader h2 {
+  display: inline-block;
+  padding-bottom: 6px;
+}
+
+.projects {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 2.4rem;
+  padding: 3.6rem 1.2rem;
+}
+
+.projectsProfilePic {
+  border-radius: 5%;
+  max-height: 196px;
+  max-width: 196px;
+}
+
+.projectsText {
+  max-width: 512px;
+  flex: 1;
+  margin-left: 2rem;
+}
+
+.projectsText a {
+  font-weight: bold;
+}
+
+@media screen and (max-width: 966px) {
+  .projects {
+    flex-direction: column;
+  }
+}

@@ -18,7 +18,7 @@ const config = {
   // trailingSlash: false,
 
   plugins: [
-    // ... plugins lainnya
+    // ...add plugins here
     [
       '@cmfcmf/docusaurus-search-local',
       {
@@ -91,6 +91,7 @@ const config = {
           label: 'Docs',
         },
         { to: '/blog', label: 'Blog', position: 'left' },
+        { to: '/projects', label: 'Projects', position: 'left' },
         {
           href: 'https://github.com/danielcristho',
           position: 'right',

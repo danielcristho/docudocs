@@ -4,7 +4,6 @@ import Layout from "@theme/Layout";
 import AvatarImageUrl from "@site/static/img/me.jpg";
 import styles from "./styles.module.css";
 import Translate, { translate } from "@docusaurus/Translate";
-import { Helmet } from 'react-helmet';
 
 
 const { Head } = require('@docusaurus/Head');
@@ -36,7 +35,7 @@ function About() {
               <Translate id="about.aboutMeHello"/>
             </h2>
             <p>
-              You can call me  <a>Daniel</a>, a student with a focus on DevOps, Cloud Technologies and Backend Development.
+              You can call me  <a>Daniel</a>, Currently an Informatics Student at Institut Teknologi Sepuluh Nopember with a focus on DevOps, Cloud Technologies and Backend Development.
             </p>
             <p>
             I am (or strive to be) an organized and analytical person. The biggest fan of FC Barcelona and mysterious movies.
