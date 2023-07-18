@@ -2,9 +2,9 @@
 slug: how-to-add-giscus-to-docusaurus
 title: How to add Giscus comments to Docusaurus
 authors: danielcristho
-tags: [docusaurus, giscus, commenting-system, how-to]
+tags: [docusaurus, giscus]
 enableComments: true # for Gisqus
-countApiKey: d6943a35-55d6-495e-8f03-92600d04b1f1
+# countApiKey: d6943a35-55d6-495e-8f03-92600d04b1f1
 ---
 
 ## Goal
