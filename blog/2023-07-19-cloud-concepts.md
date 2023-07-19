@@ -29,28 +29,31 @@ tags: [study, aws, cloud]
 ### Evolution of hosting
 
 ***Dedicated Server***
-
 One physical machine dedicated to single a business.
+
 - run single web/site
 - very expansive, high maintenance, high security
 
 ***VPS (Virtual Private Server)***
 The physical machines is virtualized into sub-machine.
+
 - run multiple app/site
 - better utilization and isolation of resources
 
 ***Shared Hosting***
 One physical machines shared by hundred of business.
+
 - very cheap, poor isolation, limited functionality
 -
 
 ***Cloud Hosting***
 Multiple physical machines that act as one system.
+
 - the system is abstracted into multiple cloud services
 - flexible, scalable, secure, cost-effective, high-configurabilty
 
 ### What is Amazon?
-An American multinational computer technology corporation headquartered in Seattle, Washington
+An American multinational computer technology corporation headquartered in Seattle, Washington.
 
 ### What is AWS?
 Cloud services provider from Amazon, was launched in 2006. Their first services:
