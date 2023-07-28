@@ -1,65 +1,63 @@
 ---
-title: Cloud Concepts - AWS Cloud Practicioner (Day 1)
-slug: cloud-concepts-day-1-aws-cloud-practicioner
+title: AWS Cloud Practicioner Journey (Day 1)
+slug: aws-cloud-practicioner-journey-day-1
 enableComments: true
 authors: danielcristho
 tags: [study, aws, cloud]
 ---
 
-### What is cloud computing?
+These are my few notes while learning about AWS cloud practitioner, I hope they can help you a little. Thank You.
 
-*** Cloud computing is the practices of using a network of remote server hosted on the internet to store, manage and process data. ***
+## Cloud Concepts
+
+**Cloud computing is the practice of using remote servers hosted on the internet to store, manage, and process data.**
 
 ### Difference between On-premises vs Cloud Providers
 
-1. On-premises:
+- On-premises:
+You own the server, hire IT personnel and bear all the risks.
 
-	- You own the server
-	- You hire IT people
-	- You pay or rent the real-estate (Service)
-	- You take all the risk
-
-2. Cloud Providers:
-
-	- Someone else owns the server
-	- Someone else hires the people
-	- Someone else pays or rents the real-estate (Service)
-	- You responsible to manage the server, someone else takes care the rest.
+- Cloud Providers:
+Someone else owns the server, hires personnel, and handles server management while you focus on other aspects.
 
 ### Evolution of hosting
 
-***Dedicated Server***
-One physical machine dedicated to single a business.
+- **Dedicated Server**:
+ One physical machine dedicated to a single business, suitable for running a single website or application.
 
-- run single web/site
-- very expansive, high maintenance, high security
+- **VPS (Virtual Private Server)**:
+Physical machines virtualized into sub-machines, capable of running multiple apps/sites.
 
-***VPS (Virtual Private Server)***
-The physical machines is virtualized into sub-machine.
+- **Shared Hosting**:
+One physical machine shared by numerous businesses, cost-effective but offers limited functionality and poor isolation.
 
-- run multiple app/site
-- better utilization and isolation of resources
+- **Cloud Hosting**:
+Multiple physical machines acting as one system, providing flexibility, scalability, security, cost-effectiveness, and high configurability.
 
-***Shared Hosting***
-One physical machines shared by hundred of business.
+### What is Amazon & AWS?
 
-- very cheap, poor isolation, limited functionality
--
-
-***Cloud Hosting***
-Multiple physical machines that act as one system.
-
-- the system is abstracted into multiple cloud services
-- flexible, scalable, secure, cost-effective, high-configurabilty
-
-### What is Amazon?
-An American multinational computer technology corporation headquartered in Seattle, Washington.
-
-### What is AWS?
-Cloud services provider from Amazon, was launched in 2006. Their first services:
-- Simple Queue Service (SQS) -> 2004
-- Simple Storage Service (S3) -> April 2006
-- Elastics Cloud Compute (EC2) -> August 2006
+Amazon is an American multinational computer technology corporation headquartered in Seattle, Washington. AWS, launched in 2006, is their cloud services provider, offering various services such as:
+- Simple Queue Service (SQS)
+- Simple Storage Service (S3)
+- Elastic Cloud Compute (EC2)
 
 ### What is Cloud Service Provider (CSP) ?
 
+A company that provides multiple **Cloud Services**, which can be combined to create cloud architectures.
+
+### Common Cloud Services
+
+- **Compute​**: EC2
+- **Networking​**: VPC
+- **Storage​**: EBS
+- **Databases​**: RDS
+
+### Tier of CSP
+
+- Tier 1: (e.g., AWS, Azure, GCP, Alibaba Cloud) - Wide offering.
+- Tier 2: (e.g., IBM Cloud, Oracle Cloud) - Usually focused on specialization.
+- Tier 3: (e.g., Linode, Vultr, Digital Ocean) - Core IaaS offerings with simplicity and cost-effectiveness.
+
+### Evolution of cloud computing
+
+Dedicated -> VMS -> Container -> Functions (Serverless)
