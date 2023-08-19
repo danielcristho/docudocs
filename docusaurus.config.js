@@ -119,13 +119,13 @@ const config = {
       respectPrefersColorScheme: true,
     },
 
-      algolia: {
-         appId: process.env.ALGOLIA_APP_ID,
-         apiKey: process.env.ALGOLIA_API_KEY,
-         indexName: process.env.ALGOLIA_INDEX_NAME,
-         placeholder: "Search...",
-         contextualSearch: true,
-     },
+//      algolia: {
+//         appId: process.env.ALGOLIA_APP_ID,
+//         apiKey: process.env.ALGOLIA_API_KEY,
+//         indexName: process.env.ALGOLIA_INDEX_NAME,
+//         placeholder: "Search...",
+//         contextualSearch: true,
+//     },
   },
 };
 
