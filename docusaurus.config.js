@@ -43,6 +43,7 @@ const config = {
           showLastUpdateAuthor: true,
           showLastUpdateTime: true,
         },
+
         blog: {
           showReadingTime: true,
           editUrl: 'https://github.com/danielcristho/docudocs/blob/main/',

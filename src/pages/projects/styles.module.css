@@ -1,44 +1,47 @@
+/* styles.module.css */
 .projectHeader {
-  background-color: var(--ifm-footer-background-color);
-  padding: 1rem 0;
   text-align: center;
-  position: relative;
-  overflow: hidden;
-  display: block;
+  margin-top: 2rem;
 }
 
-.projectsHeader h2 {
+.project {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+.project ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.project li {
+  margin-bottom: 2rem;
+  border: 1px solid #4fddbf;
+  padding: 1rem;
+  border-radius: 0.5rem;
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+.project li h3 {
+  margin-top: 0;
+  font-size: 1.5rem;
+  color: #4fddbf;
+}
+
+.project li p {
+  margin: 0;
+}
+
+.tags {
+  margin-top: 0.5rem;
+}
+
+.tag {
   display: inline-block;
-  padding-bottom: 6px;
-}
-
-.projects {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-  gap: 2.4rem;
-  padding: 3.6rem 1.2rem;
-}
-
-.projectsProfilePic {
-  border-radius: 5%;
-  max-height: 196px;
-  max-width: 196px;
-}
-
-.projectsText {
-  max-width: 512px;
-  flex: 1;
-  margin-left: 2rem;
-}
-
-.projectsText a {
-  font-weight: bold;
-}
-
-@media screen and (max-width: 966px) {
-  .projects {
-    flex-direction: column;
-  }
+  padding: 0.2rem 0.5rem;
+  margin-right: 0.5rem;
+  background-color: #3a7a6d;
+  color: #fff;
+  border-radius: 0.25rem;
 }
