@@ -10,7 +10,7 @@ const Project = () => {
 
   const projectDetails = [
     {
-      title: "PPDB Jatim 2023",
+      title: "PPDB Jawa Timur 2023",
       description: "This is a project for the admission of new students to high schools (SMA/SMK) in East Java. My task is to be an IT infrastructure for the website.",
       tags: ["docker", "ansible", "mysql"],
     },
