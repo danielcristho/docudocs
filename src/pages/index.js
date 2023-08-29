@@ -17,9 +17,12 @@ export default function Home() {
           </p>
           <br />
           <p>
-            <a class="button button--secondary" href="/about">
-              more...
-            </a>
+          <a className="button button--secondary" href="/about">
+            more...
+          </a>{" "}
+          <a className="button button--secondary" href="/blog">
+            read blog
+          </a>
           </p>
         </div>
     </Layout>
