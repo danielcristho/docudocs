@@ -21,9 +21,9 @@ function About() {
           integrity="sha512-rb6W21CQz0AmTjEEBhHOtA9u9Ux7+cCViCXcHEDBsu1RzQ0RETN7/XAYCCt+T72M+ZwO2bzM6aaZIYODewYD+A=="
           crossorigin="anonymous"
         />
-        <h2 className="underlineColorSuccess">
+        {/* <h2 className="underlineColorSuccess">
           <Translate id="about.aboutMeTittle"/>
-        </h2>
+        </h2> */}
       </header>
       <main id="main">
           <div className={styles.about}>
@@ -31,8 +31,8 @@ function About() {
             <img className={styles.aboutProfilePic} src={AvatarImageUrl} />
           </div>
           <div className={styles.aboutText}>
-            <h2>
-              <Translate id="about.aboutMeHello"/>
+            <h2 className="underlineColorSuccess">
+              <Translate id="About Me"/>
             </h2>
             <p>
               You can call me  <a>Daniel</a>, Currently an Informatics Student at Institut Teknologi Sepuluh Nopember with a focus on DevOps, Cloud Technologies and Backend Development.

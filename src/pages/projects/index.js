@@ -13,11 +13,13 @@ const Project = () => {
       title: "PPDB Jawa Timur 2023",
       description: "This is a project for the admission of new students to high schools (SMA/SMK) in East Java. My task is to be an IT infrastructure for the website.",
       tags: ["docker", "ansible", "mysql"],
+      link: "https://ppdbjatim.net",
     },
     {
-      title: "My Second Project",
-      description: "This is my second project. I built it using Python and Django.",
-      tags: ["python", "django", "mysql"],
+      title: "Docker Stuff",
+      description: "This is my first open source project while exploring Docker. Feel free if you want to contribute.",
+      tags: ["docker"],
+      link: "https://github.com/danielcristho/docker-stuff",
     },
   ];
 
@@ -33,7 +35,13 @@ const Project = () => {
           <ul>
             {projectDetails.map((project) => (
               <li key={project.title}>
-                <h3>{project.title}</h3>
+                <h3>
+                  {project.link ? (
+                    <a href={project.link}>{project.title}</a>
+                  ) : (
+                    project.title
+                  )}
+                </h3>
                 <p>{project.description}</p>
                 <div className={styles.tags}>
                   {project.tags.map((tag) => (

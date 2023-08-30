@@ -20,9 +20,7 @@ Welcome to my documentation page, where I collect and write down everything I ha
 
 ## Content
 
-- [Reading List](docs/reading-list)
 - [Book Summaries](docs/category/book-summaries)
 - [Tutorials](docs/category/tutorials)
 - [References](docs/category/references)
-- [Literature](docs/category/literature)
 - [Tools](docs/tools)

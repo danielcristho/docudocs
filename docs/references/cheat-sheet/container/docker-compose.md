@@ -16,6 +16,7 @@ docker-compose unpause
 docker-compose ps
 
 
+docker-compose up -d --build                      # build + up containers
 docker-compose up -d                              # Build, (re)create, and start containers
 docker-compose -p <project-name> up -d            # Sets the project name on running up command
 
