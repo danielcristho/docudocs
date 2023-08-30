@@ -28,16 +28,16 @@ pipeline {
 }
 ```
 
-## Quick Start Jenkinsfile Example for Java
+## Quick Start Jenkinsfile Example for Python
 
 ```shell
 # Requires the Docker Pipeline plugin
 pipeline {
-    agent { docker { image 'maven:3.8.7-eclipse-temurin-11' } }
+    agent { docker { image 'python:3.9.18-slim-bookworm' } }
     stages {
         stage('build') {
             steps {
-                sh 'mvn --version'
+                sh 'python3 --version'
             }
         }
     }
