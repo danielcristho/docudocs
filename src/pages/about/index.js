@@ -1,7 +1,7 @@
 import React from "react";
 import useDocusaurusContext from "@docusaurus/useDocusaurusContext";
 import Layout from "@theme/Layout";
-import AvatarImageUrl from "@site/static/img/me.jpg";
+import AvatarImageUrl from "@site/static/img/me.jpeg";
 import styles from "./styles.module.css";
 import Translate, { translate } from "@docusaurus/Translate";
 
