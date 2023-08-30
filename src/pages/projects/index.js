@@ -17,7 +17,7 @@ const Project = () => {
     },
     {
       title: "Docker Stuff",
-      description: "This is my first open source project while exploring Docker. Feel free if you want to contribute.",
+      description: "This is my first open source project while exploring Docker, i think I'll update it later. Feel free if you want to contribute.",
       tags: ["docker"],
       link: "https://github.com/danielcristho/docker-stuff",
     },
@@ -27,7 +27,7 @@ const Project = () => {
     <Layout title="Projects" description={siteConfig.tagline}>
       <header className={styles.projectHeader}>
         <h2 className="underlineColorSuccess">
-          <Translate id="Recent Projects" />
+          <Translate id="Projects" />
         </h2>
       </header>
       <main id="main">
