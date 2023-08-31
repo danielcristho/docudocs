@@ -20,7 +20,7 @@ Welcome to my documentation page, where I collect and write down everything I ha
 
 ## Content
 
-- [Book Summaries](docs/category/book-summaries)
+<!-- - [Book Summaries](docs/category/book-summaries)
 - [Tutorials](docs/category/tutorials)
 - [References](docs/category/references)
-- [Tools](docs/tools)
+- [Tools](docs/tools) -->
