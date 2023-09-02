@@ -4,6 +4,8 @@ title: Dockerfile
 
 ## Inheritance
 
-```dockerfile
+```shell
+
 FROM baseImage:tag
+
 ```

@@ -14,12 +14,14 @@ First, you need to install Ansible. Just follow this link to install Ansible on 
 
 After installation, create new directory called `ansible-docker`.
 
-```bash
+```shell
 $ mkdir ansible-docker && cd ansible-docker
 ```
+
 Create a new file called `ansible.cfg` as the Ansible configuration setting and then define the inventory file.
 
-```bash
+```
+
 [defaults]
 inventory = hosts
 host_key_checking = True

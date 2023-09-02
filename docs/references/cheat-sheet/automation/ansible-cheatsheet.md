@@ -4,8 +4,8 @@ title: Ansible
 
 ## Ansible
 
-- Ansible is an open source engine that automates application deployment, orchestration, cloud provisioning etc. 
-- It uses human readable YAML syntax for Ansible Playbooks to describe automation jobs. 
+- Ansible is an open source engine that automates application deployment, orchestration, cloud provisioning etc.
+- It uses human readable YAML syntax for Ansible Playbooks to describe automation jobs.
 - Ansible is agent-less and designed for multi-tier deployment. Connects nodes via ssh by pushing "Ansible modules" which is removed after its execution.
 
 ## Environment Setup
@@ -25,8 +25,8 @@ title: Ansible
 
 ```shell
 sudo apt-get update
-sudo apt-get install software-properties-common 
-sudo apt-add-repository ppa:ansible/ansible $ sudo apt-get update 
+sudo apt-get install software-properties-common
+sudo apt-add-repository ppa:ansible/ansible $ sudo apt-get update
 sudo apt-get install ansible
 ```
 **Option 2.** Install Ansible using ```python pip```
@@ -83,3 +83,5 @@ A list of managed nodes that are logically organized. You create an inventory on
 - [Ansible Documentation](https://docs.ansible.com/ansible/latest/)
 - [Ansible Cheat Sheet](https://lzone.de/cheat-sheet/Ansible)
 - [Cheatsheet for Ansible](https://devhints.io/ansible)
+
+Lexiconnihboss
