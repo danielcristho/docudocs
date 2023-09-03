@@ -35,7 +35,7 @@ function About() {
               <Translate id="About Me"/>
             </h2>
             <p>
-              You can call me  <a>Daniel</a>, Currently an Informatics Student at Institut Teknologi Sepuluh Nopember with a focus on DevOps, Cloud Technologies and Backend Development.
+              You can call me  <a>Daniel</a>, Currently an Informatics Student at Institut Teknologi Sepuluh Nopember with focus on DevOps, Cloud Technologies and Backend Development.
             </p>
             <p>
             I am (or strive to be) an organized and analytical person. The biggest fan of FC Barcelona and mysterious movies.

@@ -35,7 +35,7 @@ Then create a new file called `hosts`, where the name is defined on `ansible.cfg
 ```
 NB: Don't forget to change the IP Address and host name.
 
-After setup the Ansible configuration setting & inventory file, let's create a **YAML** called `playbook.yml`
+After setup the Ansible configuration setting & inventory file, let's create a **YAML** file called `playbook.yml`
 
 ```yaml
 ---
@@ -180,7 +180,7 @@ If You don't have any errors, run the playbook using this command.
 $ ansible-playbook -i hosts playbook.yml
 ```
 
-Output, wait until finish.
+Wait until finish.
 
 ```bash
  ____________________________________________
