@@ -37,7 +37,8 @@ const config = {
       ({
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
-          editUrl: 'https://github.com/danielcristho/docudocs/blob/main/',
+          editUrl:
+            'https://github.com/danielcristho/docudocs/blob/main/',
           remarkPlugins: [math],
           rehypePlugins: [katex],
           showLastUpdateAuthor: true,
