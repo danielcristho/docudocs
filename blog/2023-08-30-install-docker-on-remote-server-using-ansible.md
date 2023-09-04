@@ -4,17 +4,20 @@ title: Install Docker on Remote Server using Ansible
 authors: danielcristho
 tags: [docker, ansible]
 enableComments: true # for Gisqus
-# countApiKey: d6943a35-55d6-495e-8f03-92600d04b1f1
 ---
 
 Long time no see, now i will show you how to install Docker using Ansible Playbook. Let's start!!!
+
+
 
 ## Setup
 First, you need to install Ansible. Just follow this link to install Ansible on your operating system [installation guide](https://docs.ansible.com/ansible/latest/installation_guide/index.html).
 
 After installation, create new directory called `ansible-docker`.
 
-```shell
+<!--truncate-->
+
+```bash
 $ mkdir ansible-docker && cd ansible-docker
 ```
 
@@ -205,7 +208,7 @@ Wait until finish.
 
 ```
 
-### Conclusion
+## Conclusion
 In this post, I just show you how to install Docker in a specific version using Ansible Playbook when you have one or more servers.
 
 Thank You for reading this post, If You have suggestions or questions please leave them below. Thanks

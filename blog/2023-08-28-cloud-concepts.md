@@ -8,6 +8,8 @@ tags: [study, aws, cloud]
 
 These are my few notes while learning about AWS cloud practitioner, I hope they can help you a little. Thank You.
 
+<!--truncate-->
+
 ## Cloud Concepts
 
 **- Whats is cloud computing?**
