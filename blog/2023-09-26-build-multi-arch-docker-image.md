@@ -22,7 +22,7 @@ Before we start, what is buildx? Buildx is an open-source Docker CLI plugin that
 
 ## Let's start
 
-First, make sure Docker is installed, then create a new builder using buildx command called `multi-arch`.
+First, make sure Docker is installed, then create a new builder called `multi-arch` using buildx command.
 
 ```bash
 docker buildx create --use --name multi-arch
@@ -83,12 +83,12 @@ CMD ["bash"]
 Finally after create the `Dockerfile`, let's build into multi-arch using `buildx`.
 
 ```docker
-docker buildx build --platform linux/amd64,linux/arm64,linux/arm/v7,linux/arm/v8,linux/arm64/v8 .
+docker buildx build --platform linux/amd64,linux/arm64,linux/arm/v7,linux/arm/v8 .
 ```
 
 By running the command above, we can build Docker image on multi architecture, like `amd64` and `arm64`.
 
-But you can push the image to [DockerHub](https://hub.docker.com) after build using using push arguments. In this case i will push the image to my repository on DockerHub.
+But you can push the image to [DockerHub](https://hub.docker.com) after build by using push arguments. In this case i will push the image to my repository on DockerHub.
 
 ```bash
 docker buildx build --platform linux/amd64,linux/arm64,linux/arm/v7,linux/arm/v8,linux/arm64/v8 -t danielcristh0/ubuntu-bionic --push .
