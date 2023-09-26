@@ -12,7 +12,13 @@ I have several problems, when I create a Docker image on Ubuntu which in fact us
 
 ## Goal
 
-So in this article, I will make a short step on how to create multi-arch Docker image using Docker command: [buildx](https://docs.docker.com/engine/reference/commandline/buildx/).
+So in this article, I will make a short step on how to create multi-arch Docker image using Docker plugin: [buildx](https://docs.docker.com/engine/reference/commandline/buildx/).
+
+<!--truncate-->
+
+## What is Buildx
+
+Before we start, what is buildx? Buildx is an open-source Docker CLI plugin that brings enhanced build capabilities based Moby BuildKit to the Docker CLI. It’s worth mentioning that the x in buildx stands for experimental, meaning that features and capabilities provided by buildx are not yet stable. Keep in mind that actual features and command line interface may change. Once a feature provided by buildx has matured and become stable, it will be integrated into regular Docker CLI commands such as docker build and others.
 
 ## Let's start
 
@@ -89,5 +95,8 @@ docker buildx build --platform linux/amd64,linux/arm64,linux/arm/v7,linux/arm/v8
 ```
 
 Verify the result in Docker Hub.
-![Push to DockerHub](../static/img/1-docker-multi-arch.png).
+![Push to DockerHub](../static/img/1-docker-multi-arch.png)
 
+### Reference:
+- https://github.com/docker/buildx
+- https://www.thorsten-hans.com/how-to-build-multi-arch-docker-images-with-ease
