@@ -11,10 +11,10 @@ export default function GiscusComponent() {
 
   return (
     <Giscus
-      repo="danielcristho/docudocs"
-      repoId="R_kgDOItl3tQ"
+      repo="danielcristho/discussion"
+      repoId="R_kgDOKVgYZw"
       category="General"
-      categoryId="DIC_kwDOItl3tc4CXncq"
+      categoryId="DIC_kwDOKVgYZ84CZb0n"
       mapping="url"
       term="Welcome to @giscus/react component!"
       strict="0"
