@@ -11,8 +11,7 @@
     "clear": "docusaurus clear",
     "serve": "docusaurus serve",
     "write-translations": "docusaurus write-translations",
-    "write-heading-ids": "docusaurus write-heading-ids",
-    "generate-doc-content": "python3 generate-doc-content.py"
+    "write-heading-ids": "docusaurus write-heading-ids"
   },
   "dependencies": {
     "@cmfcmf/docusaurus-search-local": "^1.1.0",
