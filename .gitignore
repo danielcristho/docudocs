@@ -25,7 +25,7 @@ yarn-error.log*
 .vscode
 
 # Vercel
-/.vercel
+.vercel
 
 # Obsidian
 .obsidian
