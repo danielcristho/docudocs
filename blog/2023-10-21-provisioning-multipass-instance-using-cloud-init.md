@@ -8,7 +8,7 @@ enableComments: true
 
 ## Disclamer
 
-In Multipass, the Minikube image is available with Ubuntu 22.04, Docker, and Kubectl included . So in the article, I will use the Ubuntu 20.04 (focal) image and set it up from basic with minimum requirements.
+In Multipass, the Minikube image is available with Ubuntu 22.04, Docker, and Kubectl included. So in the article, I will use the Ubuntu 20.04 (focal) image and set it up from basic with minimum requirements.
 
 ## Overview
 
@@ -191,7 +191,7 @@ Your project should look like this:
 └── run.sh
 ```
 
-Now run the .sh file:
+Now run the .sh file, wait until finish:
 
 ```bash
 ./run.sh
@@ -219,7 +219,7 @@ Mounts:         --
 
 ```
 
-Connect to a running instance
+Connect to the instance
 
 ```bash
 multipass shell kubelab
