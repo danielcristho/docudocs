@@ -1,6 +1,6 @@
 ---
-slug: 2023-10-21-provisioning-minikube-instance-using-cloud-init.md
-title: Provisioning Minikube Instance Using Cloud Init
+slug: 2023-10-21-provisioning-minikube-instance-using-multipass-&-cloud-init.md
+title: Provisioning Minikube Instance Using Multipass & Cloud Init
 authors: danielcristho
 tags: [ubuntu, linux]
 enableComments: true
