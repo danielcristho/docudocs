@@ -5,7 +5,6 @@ import AvatarImageUrl from "@site/static/img/me.jpeg";
 import styles from "./styles.module.css";
 import Translate, { translate } from "@docusaurus/Translate";
 
-
 const { Head } = require('@docusaurus/Head');
 
 function About() {

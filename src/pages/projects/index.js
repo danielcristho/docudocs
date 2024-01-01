@@ -17,9 +17,15 @@ const Project = () => {
     },
     {
       title: "Docker Stuff",
-      description: "This is my first open source project while exploring Docker, i think I'll update it later. Feel free if you want to contribute.",
+      description: "This is my first open source project while exploring Docker, I think I'll update it later. Feel free if You want to contribute.",
       tags: ["docker"],
       link: "https://github.com/danielcristho/docker-stuff",
+    },
+    {
+      title: "Setup Server",
+      description: "Shell Script project to manage Ubuntu server or other Linux Server. If You want to contribute, maybe to add a feature or any solutions please create an Issue before.",
+      tags: ["linux"],
+      link: "https://github.com/danielcristho/setup-server",
     },
   ];
 
