@@ -15,6 +15,14 @@ const config = {
   baseUrl: '/',
   onBrokenLinks: 'warn',
   onBrokenMarkdownLinks: 'warn',
+  // logo: {
+  //   alt: 'My Logo',
+  //   src: 'img/dc-logo.svg',
+  //   href: 'https://danielcristho.site/',
+  //   width: 32,
+  //   height: 32,
+  // },
+
   // trailingSlash: false,
 
   plugins: [
@@ -83,7 +91,15 @@ const config = {
   ],
   themeConfig: {
     navbar: {
-      title: 'Home',
+      // title: 'Home',
+      logo: {
+        alt: 'My Logo',
+        src: 'img/dc-logo.svg',
+        href: 'https://danielcristho.site/',
+        width: 30,
+        height: 30,
+        target: '_self'
+      },
       hideOnScroll: true,
       items: [
         {
