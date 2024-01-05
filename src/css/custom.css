@@ -56,46 +56,6 @@
   width: 24px;
 }
 
-/* Header Youtube Logo
-.header-youtube-link:hover {
-  opacity: 0.6;
-} */
-
-/* .header-youtube-link:before {
-  background: url(/static/img/youtube-svgrepo-com-dark.svg) no-repeat;
-  background-size: 24px;
-  content: "";
-  display: flex;
-  height: 24px;
-  width: 24px;
-} */
-
-/* [data-theme='dark'] .header-youtube-link:hover {
-  opacity: 0.6;
-}
-
-[data-theme='dark'] .header-youtube-link:before {
-  background: url(/static/img/youtube-svgrepo-com-light.svg) no-repeat;
-  background-size: 24px;
-  content: "";
-  display: flex;
-  height: 24px;
-  width: 24px;
-} */
-
-/* Header m19v Logo
-.header-m19v-logo {
-  padding: 2px;
-} */
-
-/* .header-m19v-logo:hover {
-  opacity: 0.6;
-} */
-
-/* [data-theme='dark'] .header-m19v-logo:hover {
-  opacity: 0.6;
-} */
-
 /* contentTableContainer */
 
 .contentTableContainer table {
