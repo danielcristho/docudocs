@@ -31,9 +31,10 @@ function About() {
           </div>
           <div className={styles.aboutText}>
             <h2 className="underlineColorSuccess">
-              <Translate id="About Me"/>
+              <Translate id="about.hello"/>
             </h2>
             <p>
+            <Translate id="about.p.1.1" />
               You can call me  <a>Daniel</a>, Currently an Informatics Student at Institut Teknologi Sepuluh Nopember with focus on DevOps, Cloud Technologies and Backend Development.
             </p>
             <p>
