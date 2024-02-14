@@ -54,5 +54,4 @@ function About() {
     </Layout>
   );
 }
-
 export default About;
