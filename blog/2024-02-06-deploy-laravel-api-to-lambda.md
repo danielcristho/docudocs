@@ -5,7 +5,7 @@ tags: [cloud, aws]
 enableComments: true
 ---
 
-About two months ago, I was given a task to deploying a Laravel API to Lambda. And then I found a ways to deploy it using [Serverless Framework](https://www.serverless.com/framework/docs/getting-started) and [Bref](https://bref.sh/docs/laravel/getting-started).
+About two months ago, I was given a task to deploy Laravel API to Lambda. And then I found the ways to deploy it using [Serverless Framework](https://www.serverless.com/framework/docs/getting-started) and [Bref](https://bref.sh/docs/laravel/getting-started).
 
 ## What is Serverless Framework?
 
