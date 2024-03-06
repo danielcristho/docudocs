@@ -14,12 +14,13 @@ function About() {
   return (
     <Layout title="About me" description={siteConfig.tagline}>
       <header className={styles.aboutHeader}>
-        <link
-          rel="stylesheet"
-          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
-          integrity="sha512-rb6W21CQz0AmTjEEBhHOtA9u9Ux7+cCViCXcHEDBsu1RzQ0RETN7/XAYCCt+T72M+ZwO2bzM6aaZIYODewYD+A=="
-          crossorigin="anonymous"
-        />
+      <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+      integrity="sha512-Avb2QiuDEEvB4bZJYdft2mNjVShBftLdPG8FJ0V7irTLQ8Uo0qcPxh4Plq7G5tGm0rU+1SPhVotteLpBERwTkw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+      />
         {/* <h2 className="underlineColorSuccess">
           <Translate id="about.aboutMeTittle"/>
         </h2> */}
@@ -44,7 +45,7 @@ function About() {
               I strongly care about documenting and sharing knowledge. I use this website as a reference in my daily work and would be glad if others could benefit from the information provided here.
             </p>
             <p>
-              I am an active <i class="fab fa-twitter"></i> You can find me there as <a href="https://twitter.com/chrstdan" target="_blank">@chrstdan</a>. If Twitter is not particularly your game, we may get connected on <i class="fab fa-linkedin"></i> where my handle is
+              I am an active <i class="fa-brands fa-x-twitter"></i> You can find me there as <a href="https://twitter.com/chrstdan" target="_blank">@chrstdan</a>. If X is not particularly your game, we may get connected on <i class="fa-brands fa-linkedin"></i> where my handle is
               <a href="https://www.linkedin.com/in/daniel-pepuho" target="_blank"> Daniel Pepuho</a>.
             </p>
             <p>Thanks for stopping by.</p>
