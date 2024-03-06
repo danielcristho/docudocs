@@ -1,6 +1,6 @@
 ---
-slug: 2024-02-06-deploy-laravel-api-to-aws-lambda.md
-title: Deploy Laravel API To Lambda
+slug: 2024-02-06-deploy-laravel-api-to-lambda.md
+title: Deploy Laravel API To AWS Lambda
 tags: [cloud, aws]
 enableComments: true
 ---
