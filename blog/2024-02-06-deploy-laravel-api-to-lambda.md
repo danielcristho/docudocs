@@ -9,6 +9,8 @@ About two months ago, I was given the task of deploying a Laravel API to Lambda.
 
 ## What is Serverless Framework?
 
+<!--truncate-->
+
 The Serverless Framework is an open-source framework that allows developers to build and deploy serverless applications and functions. It simplifies the process of managing serverless architectures by abstracting away the underlying infrastructure management. With the Serverless Framework, developers can focus more on writing code and less on managing servers or provisioning resources.
 
 To install serverless, you should using npm:
