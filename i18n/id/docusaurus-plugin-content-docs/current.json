@@ -1,0 +1,102 @@
+{
+  "version.label": {
+    "message": "Next",
+    "description": "The label for version current"
+  },
+  "sidebar.tutorialSidebar.category.Book Summaries": {
+    "message": "Book Summaries",
+    "description": "The label for category Book Summaries in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Book Summaries.link.generated-index.description": {
+    "message": " ",
+    "description": "The generated-index page description for category Book Summaries in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Tutorials": {
+    "message": "Tutorials",
+    "description": "The label for category Tutorials in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Tutorials.link.generated-index.description": {
+    "message": " ",
+    "description": "The generated-index page description for category Tutorials in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Ansible": {
+    "message": "Ansible",
+    "description": "The label for category Ansible in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Ansible.link.generated-index.description": {
+    "message": " ",
+    "description": "The generated-index page description for category Ansible in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Programming Languages": {
+    "message": "Programming Languages",
+    "description": "The label for category Programming Languages in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Programming Languages.link.generated-index.description": {
+    "message": " ",
+    "description": "The generated-index page description for category Programming Languages in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.References": {
+    "message": "References",
+    "description": "The label for category References in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.References.link.generated-index.description": {
+    "message": " ",
+    "description": "The generated-index page description for category References in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Cheat-Sheet": {
+    "message": "Cheat-Sheet",
+    "description": "The label for category Cheat-Sheet in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Cheat-Sheet.link.generated-index.description": {
+    "message": " ",
+    "description": "The generated-index page description for category Cheat-Sheet in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Automation": {
+    "message": "Automation",
+    "description": "The label for category Automation in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Automation.link.generated-index.description": {
+    "message": "Automation.",
+    "description": "The generated-index page description for category Automation in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.CICD": {
+    "message": "CICD",
+    "description": "The label for category CICD in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.CICD.link.generated-index.description": {
+    "message": "CICD.",
+    "description": "The generated-index page description for category CICD in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Container": {
+    "message": "Container",
+    "description": "The label for category Container in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Container.link.generated-index.description": {
+    "message": "Container.",
+    "description": "The generated-index page description for category Container in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Linux": {
+    "message": "Linux",
+    "description": "The label for category Linux in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Linux.link.generated-index.description": {
+    "message": "Linux.",
+    "description": "The generated-index page description for category Linux in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Network": {
+    "message": "Network",
+    "description": "The label for category Network in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Network.link.generated-index.description": {
+    "message": "Network.",
+    "description": "The generated-index page description for category Network in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Scripting": {
+    "message": "Scripting",
+    "description": "The label for category Scripting in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Scripting.link.generated-index.description": {
+    "message": " ",
+    "description": "The generated-index page description for category Scripting in sidebar tutorialSidebar"
+  }
+}

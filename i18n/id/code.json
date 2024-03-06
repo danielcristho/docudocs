@@ -1,0 +1,20 @@
+{
+    "homepage.hello": {
+        "message": "Hi, nama saya"
+    },
+    "homepage.iam": {
+        "message": "a student who is passionate about networking and programming."
+    },
+    "homepage.more": {
+        "message": "more..."
+    },
+    "about.hello": {
+        "message": "Hello,"
+    },
+    "about.p.1.1": {
+        "message": "I am "
+    },
+    "about.p.1.2": {
+        "message": ", a student who is passionate about networking and programming."
+    }
+}
