@@ -1,11 +1,11 @@
 ---
-slug: 2024-02-06-deploy-laravel-api-to-lambda.md
+slug: 2024-02-06-deploy-laravel-api-to-aws-lambda.md
 title: Deploy Laravel API To Lambda
 tags: [cloud, aws]
 enableComments: true
 ---
 
-About two months ago, I was given the task of deploying a Laravel API to Lambda. Finally I found a ways to deploy it with [Serverless Framework](https://www.serverless.com/framework/docs/getting-started) and [Bref](https://bref.sh/docs/laravel/getting-started).
+About two months ago, I was given a task to deploying a Laravel API to Lambda. And then I found a ways to deploy it using [Serverless Framework](https://www.serverless.com/framework/docs/getting-started) and [Bref](https://bref.sh/docs/laravel/getting-started).
 
 ## What is Serverless Framework?
 
